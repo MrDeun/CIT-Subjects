@@ -1,449 +1,449 @@
 n,scenario,algorithm,status,total_cost,time_ns,memory_usage,memory_human,best_path
-5,complete symmetrical,dfs,ok,548,47629,2308,2.3 KB,0-3-2-1-4
-5,complete symmetrical,bfs,ok,548,63649,7072,6.9 KB,0-3-2-1-4
-5,complete symmetrical,nearest_neighbour,ok,566,10790,1044,1.0 KB,0-4-2-3-1
-5,complete symmetrical,dijkstra,ok,566,70221,2120,2.1 KB,0-4-2-3-1-0
-5,complete symmetrical,inadmissible_astar,ok,553,68208,3864,3.8 KB,0-1-2-3-4
-5,complete symmetrical,admissible_astar,ok,548,220444,10032,9.8 KB,0-3-2-1-4
-5,complete symmetrical,ant_colony,ok,548,5980475,8268,8.1 KB,0-4-1-2-3
-5,complete asymmetrical,dfs,ok,644,38762,2124,2.1 KB,0-1-2-3-4
-5,complete asymmetrical,bfs,ok,644,39634,6944,6.8 KB,0-1-2-3-4
-5,complete asymmetrical,nearest_neighbour,ok,645,3918,916,916 B,0-1-3-2-4
-5,complete asymmetrical,dijkstra,ok,645,38122,2000,2.0 KB,0-1-3-2-4-0
-5,complete asymmetrical,inadmissible_astar,ok,644,40195,3736,3.6 KB,0-1-2-3-4
-5,complete asymmetrical,admissible_astar,ok,644,147537,7736,7.6 KB,0-1-2-3-4
-5,complete asymmetrical,ant_colony,ok,644,6195999,8140,7.9 KB,0-1-2-3-4
-5,incomplete symmetrical,dfs,ok,461,25037,2148,2.1 KB,0-2-4-1-3
-5,incomplete symmetrical,bfs,ok,461,24085,4472,4.4 KB,0-2-4-1-3
-5,incomplete symmetrical,nearest_neighbour,no_tour,,5591,828,828 B,
-5,incomplete symmetrical,dijkstra,ok,481,45465,1984,1.9 KB,0-3-4-2-1-2-0
-5,incomplete symmetrical,inadmissible_astar,ok,462,42200,3304,3.2 KB,0-4-2-1-3
-5,incomplete symmetrical,admissible_astar,ok,461,124674,6280,6.1 KB,0-3-1-4-2
-5,incomplete symmetrical,ant_colony,ok,461,5661186,8092,7.9 KB,0-2-4-1-3
-5,incomplete asymmetrical,dfs,ok,457,18084,2148,2.1 KB,0-4-1-3-2
-5,incomplete asymmetrical,bfs,ok,457,24216,3808,3.7 KB,0-4-1-3-2
-5,incomplete asymmetrical,nearest_neighbour,ok,469,4047,860,860 B,0-4-2-3-1
-5,incomplete asymmetrical,dijkstra,ok,469,36558,1896,1.9 KB,0-4-2-3-1-0
-5,incomplete asymmetrical,inadmissible_astar,ok,461,32400,3304,3.2 KB,0-1-3-2-4
-5,incomplete asymmetrical,admissible_astar,ok,457,130244,6928,6.8 KB,0-4-1-3-2
-5,incomplete asymmetrical,ant_colony,ok,457,5802831,8080,7.9 KB,0-4-1-3-2
-6,complete symmetrical,dfs,ok,482,92233,2332,2.3 KB,0-5-1-2-4-3
-6,complete symmetrical,bfs,ok,482,218169,27568,26.9 KB,0-5-1-2-4-3
-6,complete symmetrical,nearest_neighbour,ok,494,5601,868,868 B,0-5-1-2-3-4
-6,complete symmetrical,dijkstra,ok,494,48191,2152,2.1 KB,0-5-1-2-3-4-0
-6,complete symmetrical,inadmissible_astar,ok,494,50525,4828,4.7 KB,0-4-3-2-1-5
-6,complete symmetrical,admissible_astar,ok,482,373832,16384,16.0 KB,0-5-1-2-4-3
-6,complete symmetrical,ant_colony,ok,482,8591285,8580,8.4 KB,0-5-1-2-4-3
-6,complete asymmetrical,dfs,ok,501,125806,2276,2.2 KB,0-3-5-2-4-1
-6,complete asymmetrical,bfs,ok,501,183825,27624,27.0 KB,0-3-5-2-4-1
-6,complete asymmetrical,nearest_neighbour,ok,539,5380,868,868 B,0-4-2-3-5-1
-6,complete asymmetrical,dijkstra,ok,539,53140,2176,2.1 KB,0-4-2-3-5-1-0
-6,complete asymmetrical,inadmissible_astar,ok,501,59992,4828,4.7 KB,0-3-5-2-4-1
-6,complete asymmetrical,admissible_astar,ok,501,417153,17960,17.5 KB,0-3-5-2-4-1
-6,complete asymmetrical,ant_colony,ok,501,8319676,8620,8.4 KB,0-3-5-2-4-1
-6,incomplete symmetrical,dfs,ok,646,47800,2276,2.2 KB,0-5-3-1-4-2
-6,incomplete symmetrical,bfs,ok,646,89928,9200,9.0 KB,0-5-3-1-4-2
-6,incomplete symmetrical,nearest_neighbour,no_tour,,3787,836,836 B,
-6,incomplete symmetrical,dijkstra,ok,723,49994,2200,2.1 KB,0-3-5-0-2-4-1-0
-6,incomplete symmetrical,inadmissible_astar,ok,750,49733,4672,4.6 KB,0-4-2-1-3-5
-6,incomplete symmetrical,admissible_astar,ok,646,227387,8488,8.3 KB,0-5-3-1-4-2
-6,incomplete symmetrical,ant_colony,ok,646,7728887,8484,8.3 KB,0-5-3-1-4-2
-6,incomplete asymmetrical,dfs,ok,629,50875,2164,2.1 KB,0-4-1-3-2-5
-6,incomplete asymmetrical,bfs,ok,629,71634,9200,9.0 KB,0-4-1-3-2-5
-6,incomplete asymmetrical,nearest_neighbour,no_tour,,4529,836,836 B,
-6,incomplete asymmetrical,dijkstra,ok,747,47780,2080,2.0 KB,0-2-3-1-5-2-4-0
-6,incomplete asymmetrical,inadmissible_astar,ok,675,67286,6572,6.4 KB,0-1-3-4-2-5
-6,incomplete asymmetrical,admissible_astar,ok,629,291858,12024,11.7 KB,0-4-1-3-2-5
-6,incomplete asymmetrical,ant_colony,ok,632,7585437,8468,8.3 KB,0-5-1-3-2-4
-7,complete symmetrical,dfs,ok,569,749127,2700,2.6 KB,0-1-5-2-6-4-3
-7,complete symmetrical,bfs,ok,569,1093512,163544,159.7 KB,0-1-5-2-6-4-3
-7,complete symmetrical,nearest_neighbour,ok,622,8095,876,876 B,0-3-5-2-1-6-4
-7,complete symmetrical,dijkstra,ok,622,70092,2312,2.3 KB,0-3-5-2-1-6-4-0
-7,complete symmetrical,inadmissible_astar,ok,590,94838,6200,6.1 KB,0-3-1-5-2-6-4
-7,complete symmetrical,admissible_astar,ok,569,1888564,61784,60.3 KB,0-1-5-2-6-4-3
-7,complete symmetrical,ant_colony,ok,579,10906270,9004,8.8 KB,0-3-5-1-2-6-4
-7,complete asymmetrical,dfs,ok,568,455726,2532,2.5 KB,0-1-2-4-6-5-3
-7,complete asymmetrical,bfs,ok,568,1044851,163544,159.7 KB,0-1-2-4-6-5-3
-7,complete asymmetrical,nearest_neighbour,ok,653,8186,876,876 B,0-3-5-4-2-6-1
-7,complete asymmetrical,dijkstra,ok,653,70683,2360,2.3 KB,0-3-5-4-2-6-1-0
-7,complete asymmetrical,inadmissible_astar,ok,568,75051,6200,6.1 KB,0-1-2-4-6-5-3
-7,complete asymmetrical,admissible_astar,ok,568,625524,20968,20.5 KB,0-1-2-4-6-5-3
-7,complete asymmetrical,ant_colony,ok,595,11427158,9044,8.8 KB,0-3-5-6-4-2-1
-7,incomplete symmetrical,dfs,ok,614,201989,2420,2.4 KB,0-1-3-4-5-6-2
-7,incomplete symmetrical,bfs,ok,614,368431,50272,49.1 KB,0-1-3-4-5-6-2
-7,incomplete symmetrical,nearest_neighbour,no_tour,,5991,844,844 B,
-7,incomplete symmetrical,dijkstra,ok,656,68780,2272,2.2 KB,0-2-1-3-4-5-6-5-0
-7,incomplete symmetrical,inadmissible_astar,ok,638,66414,5368,5.2 KB,0-4-5-6-3-1-2
-7,incomplete symmetrical,admissible_astar,ok,614,946747,22576,22.0 KB,0-2-6-5-4-3-1
-7,incomplete symmetrical,ant_colony,ok,614,9709584,8940,8.7 KB,0-1-3-4-5-6-2
-7,incomplete asymmetrical,dfs,ok,530,266400,2756,2.7 KB,0-4-6-2-3-1-5
-7,incomplete asymmetrical,bfs,ok,530,571493,58176,56.8 KB,0-4-6-2-3-1-5
-7,incomplete asymmetrical,nearest_neighbour,no_tour,,6222,844,844 B,
-7,incomplete asymmetrical,dijkstra,ok,579,77906,2360,2.3 KB,0-4-5-1-3-2-6-2-0
-7,incomplete asymmetrical,inadmissible_astar,ok,616,76463,6176,6.0 KB,0-3-2-6-1-5-4
-7,incomplete asymmetrical,admissible_astar,ok,530,455925,15584,15.2 KB,0-4-6-2-3-1-5
-7,incomplete asymmetrical,ant_colony,ok,530,9819310,8924,8.7 KB,0-4-6-2-3-1-5
-8,complete symmetrical,dfs,ok,595,2803732,2576,2.5 KB,0-1-6-4-2-3-5-7
-8,complete symmetrical,bfs,ok,595,8740696,1172352,1.1 MB,0-1-6-4-2-3-5-7
-8,complete symmetrical,nearest_neighbour,ok,611,9508,884,884 B,0-5-3-7-2-4-6-1
-8,complete symmetrical,dijkstra,ok,611,90731,2472,2.4 KB,0-5-3-7-2-4-6-1-0
-8,complete symmetrical,inadmissible_astar,ok,595,102412,7688,7.5 KB,0-1-6-4-2-3-5-7
-8,complete symmetrical,admissible_astar,ok,595,1025414,27536,26.9 KB,0-7-5-3-2-4-6-1
-8,complete symmetrical,ant_colony,ok,595,13740430,9556,9.3 KB,0-1-6-4-2-3-5-7
-8,complete asymmetrical,dfs,ok,479,2028437,2968,2.9 KB,0-2-6-3-5-4-7-1
-8,complete asymmetrical,bfs,ok,479,9378042,1172352,1.1 MB,0-2-6-3-5-4-7-1
-8,complete asymmetrical,nearest_neighbour,ok,592,15789,884,884 B,0-2-6-3-1-7-4-5
-8,complete asymmetrical,dijkstra,ok,580,145002,2784,2.7 KB,0-2-6-3-1-7-4-5-3-0
-8,complete asymmetrical,inadmissible_astar,ok,557,110277,7688,7.5 KB,0-5-4-7-1-3-6-2
-8,complete asymmetrical,admissible_astar,ok,479,2068813,47632,46.5 KB,0-2-6-3-5-4-7-1
-8,complete asymmetrical,ant_colony,ok,479,13910118,9492,9.3 KB,0-2-6-3-5-4-7-1
-8,incomplete symmetrical,dfs,ok,622,1000488,2744,2.7 KB,0-3-5-2-1-6-7-4
-8,incomplete symmetrical,bfs,ok,622,1966802,247296,241.5 KB,0-3-5-2-1-6-7-4
-8,incomplete symmetrical,nearest_neighbour,ok,667,9408,884,884 B,0-4-7-5-3-2-1-6
-8,incomplete symmetrical,dijkstra,ok,667,90710,2456,2.4 KB,0-4-7-5-3-2-1-6-0
-8,incomplete symmetrical,inadmissible_astar,ok,622,100539,6368,6.2 KB,0-3-5-2-1-6-7-4
-8,incomplete symmetrical,admissible_astar,ok,622,958689,25840,25.2 KB,0-4-7-6-1-2-5-3
-8,incomplete symmetrical,ant_colony,ok,622,12436613,9496,9.3 KB,0-4-7-6-1-2-5-3
-8,incomplete asymmetrical,dfs,ok,633,1622715,2912,2.8 KB,0-7-1-6-5-3-4-2
-8,incomplete asymmetrical,bfs,ok,633,1632565,189432,185.0 KB,0-7-1-6-5-3-4-2
-8,incomplete asymmetrical,nearest_neighbour,no_tour,,8586,852,852 B,
-8,incomplete asymmetrical,dijkstra,ok,676,99357,2632,2.6 KB,0-4-3-5-2-1-6-1-7-0
-8,incomplete asymmetrical,inadmissible_astar,ok,656,669607,38440,37.5 KB,0-4-2-5-3-6-1-7
-8,incomplete asymmetrical,admissible_astar,ok,633,3553960,73512,71.8 KB,0-7-1-6-5-3-4-2
-8,incomplete asymmetrical,ant_colony,ok,656,12548893,9468,9.2 KB,0-4-2-5-3-6-1-7
-9,complete symmetrical,dfs,ok,533,7009266,3136,3.1 KB,0-5-6-8-4-2-1-3-7
-9,complete symmetrical,bfs,ok,533,77381230,10978888,10.5 MB,0-5-6-8-4-2-1-3-7
-9,complete symmetrical,nearest_neighbour,ok,536,16130,956,956 B,0-5-6-4-8-2-1-3-7
-9,complete symmetrical,dijkstra,ok,536,123953,2696,2.6 KB,0-5-6-4-8-2-1-3-7-0
-9,complete symmetrical,inadmissible_astar,ok,536,148659,9904,9.7 KB,0-7-3-1-2-8-4-6-5
-9,complete symmetrical,admissible_astar,ok,533,1765453,35240,34.4 KB,0-5-6-8-4-2-1-3-7
-9,complete symmetrical,ant_colony,ok,533,17189023,10900,10.6 KB,0-5-6-8-4-2-1-3-7
-9,complete asymmetrical,dfs,ok,567,12119006,3664,3.6 KB,0-6-4-3-8-5-1-7-2
-9,complete asymmetrical,bfs,ok,567,80956169,10978888,10.5 MB,0-6-4-3-8-5-1-7-2
-9,complete asymmetrical,nearest_neighbour,ok,583,16972,956,956 B,0-2-7-1-8-5-3-4-6
-9,complete asymmetrical,dijkstra,ok,583,125696,2808,2.7 KB,0-2-7-1-8-5-3-4-6-0
-9,complete asymmetrical,inadmissible_astar,ok,567,155632,10000,9.8 KB,0-6-4-3-8-5-1-7-2
-9,complete asymmetrical,admissible_astar,ok,567,1457205,39568,38.6 KB,0-6-4-3-8-5-1-7-2
-9,complete asymmetrical,ant_colony,ok,567,17214420,11068,10.8 KB,0-6-4-3-8-5-1-7-2
-9,incomplete symmetrical,dfs,ok,513,3782780,3192,3.1 KB,0-4-1-2-8-5-3-6-7
-9,incomplete symmetrical,bfs,ok,513,13531227,1807200,1.7 MB,0-4-1-2-8-5-3-6-7
-9,incomplete symmetrical,nearest_neighbour,ok,513,11121,956,956 B,0-4-1-2-8-5-3-6-7
-9,incomplete symmetrical,dijkstra,ok,513,120376,2768,2.7 KB,0-4-1-2-8-5-3-6-7-0
-9,incomplete symmetrical,inadmissible_astar,ok,513,439706,27200,26.6 KB,0-4-1-2-8-5-3-6-7
-9,incomplete symmetrical,admissible_astar,ok,513,1278410,27864,27.2 KB,0-4-1-2-8-5-3-6-7
-9,incomplete symmetrical,ant_colony,ok,513,14799357,10844,10.6 KB,0-4-1-2-8-5-3-6-7
-9,incomplete asymmetrical,dfs,ok,511,2454006,2632,2.6 KB,0-1-4-7-3-2-5-6-8
-9,incomplete asymmetrical,bfs,ok,511,16359866,2281312,2.2 MB,0-1-4-7-3-2-5-6-8
-9,incomplete asymmetrical,nearest_neighbour,ok,609,11722,956,956 B,0-8-1-3-7-4-5-2-6
-9,incomplete asymmetrical,dijkstra,ok,626,121588,2832,2.8 KB,0-8-1-0-6-5-2-3-7-4-8-0
-9,incomplete asymmetrical,inadmissible_astar,ok,573,140444,9152,8.9 KB,0-3-7-4-5-2-6-8-1
-9,incomplete asymmetrical,admissible_astar,ok,511,1556892,33216,32.4 KB,0-1-4-7-3-2-5-6-8
-9,incomplete asymmetrical,ant_colony,ok,539,15590552,10824,10.6 KB,0-8-1-4-7-3-2-5-6
-10,complete symmetrical,dfs,ok,601,73043949,3288,3.2 KB,0-4-9-6-3-8-5-2-1-7
-10,complete symmetrical,bfs,ok,601,895204643,101698736,97.0 MB,0-4-9-6-3-8-5-2-1-7
-10,complete symmetrical,nearest_neighbour,ok,602,19206,964,964 B,0-7-1-2-5-8-6-3-9-4
-10,complete symmetrical,dijkstra,ok,602,155281,2920,2.9 KB,0-7-1-2-5-8-6-3-9-4-0
-10,complete symmetrical,inadmissible_astar,ok,602,208842,12672,12.4 KB,0-4-9-3-6-8-5-2-1-7
-10,complete symmetrical,admissible_astar,ok,601,2305197,41512,40.5 KB,0-4-9-6-3-8-5-2-1-7
-10,complete symmetrical,ant_colony,ok,601,20485720,11632,11.4 KB,0-7-1-2-5-8-3-6-9-4
-10,complete asymmetrical,dfs,ok,659,42746062,3568,3.5 KB,0-3-7-6-5-2-4-9-8-1
-10,complete asymmetrical,bfs,ok,659,850203089,101698792,97.0 MB,0-3-7-6-5-2-4-9-8-1
-10,complete asymmetrical,nearest_neighbour,ok,738,20318,964,964 B,0-1-3-7-6-4-2-5-9-8
-10,complete asymmetrical,dijkstra,ok,738,167895,3208,3.1 KB,0-1-3-7-6-4-2-5-9-8-0
-10,complete asymmetrical,inadmissible_astar,ok,721,233057,12384,12.1 KB,0-5-2-4-9-8-1-3-7-6
-10,complete asymmetrical,admissible_astar,ok,659,11706352,181224,177.0 KB,0-3-7-6-5-2-4-9-8-1
-10,complete asymmetrical,ant_colony,ok,673,22518957,11632,11.4 KB,0-1-3-7-6-5-2-4-9-8
-10,incomplete symmetrical,dfs,ok,530,27887884,2952,2.9 KB,0-6-7-8-4-5-9-3-1-2
-10,incomplete symmetrical,bfs,ok,530,130895753,14147312,13.5 MB,0-6-7-8-4-5-9-3-1-2
-10,incomplete symmetrical,nearest_neighbour,ok,608,19577,964,964 B,0-6-9-5-3-2-1-8-4-7
-10,incomplete symmetrical,dijkstra,ok,608,279285,2928,2.9 KB,0-6-9-5-3-2-1-8-4-7-0
-10,incomplete symmetrical,inadmissible_astar,ok,599,173416,10400,10.2 KB,0-7-8-4-6-9-5-1-3-2
-10,incomplete symmetrical,admissible_astar,ok,530,16386406,310032,302.8 KB,0-6-7-8-4-5-9-3-1-2
-10,incomplete symmetrical,ant_colony,ok,569,22045628,11604,11.3 KB,0-6-2-1-3-9-5-4-8-7
-10,incomplete asymmetrical,dfs,ok,607,15077550,2672,2.6 KB,0-1-6-8-5-2-4-3-7-9
-10,incomplete asymmetrical,bfs,ok,607,140917424,11508528,11.0 MB,0-1-6-8-5-2-4-3-7-9
-10,incomplete asymmetrical,nearest_neighbour,no_tour,,19817,932,932 B,
-10,incomplete asymmetrical,dijkstra,ok,850,184115,2952,2.9 KB,0-1-9-7-3-2-5-8-6-8-4-0
-10,incomplete asymmetrical,inadmissible_astar,ok,649,342713,17192,16.8 KB,0-1-9-7-3-4-2-5-8-6
-10,incomplete asymmetrical,admissible_astar,ok,607,3495911,42088,41.1 KB,0-1-6-8-5-2-4-3-7-9
-10,incomplete asymmetrical,ant_colony,ok,607,21357176,11540,11.3 KB,0-1-6-8-5-2-4-3-7-9
+5,complete symmetrical,dfs,ok,548,30738,1992,1.9 KB,0-3-2-1-4
+5,complete symmetrical,bfs,ok,548,44695,6752,6.6 KB,0-3-2-1-4
+5,complete symmetrical,nearest_neighbour,ok,566,8236,748,748 B,0-4-2-3-1
+5,complete symmetrical,dijkstra,ok,566,49975,1936,1.9 KB,0-4-2-3-1-0
+5,complete symmetrical,inadmissible_astar,ok,553,45476,3680,3.6 KB,0-1-2-3-4
+5,complete symmetrical,admissible_astar,ok,548,180152,9696,9.5 KB,0-3-2-1-4
+5,complete symmetrical,ant_colony,ok,548,6236712,8196,8.0 KB,0-4-1-2-3
+5,complete asymmetrical,dfs,ok,644,36038,2060,2.0 KB,0-1-2-3-4
+5,complete asymmetrical,bfs,ok,644,37902,6880,6.7 KB,0-1-2-3-4
+5,complete asymmetrical,nearest_neighbour,ok,645,4438,852,852 B,0-1-3-2-4
+5,complete asymmetrical,dijkstra,ok,645,36409,1936,1.9 KB,0-1-3-2-4-0
+5,complete asymmetrical,inadmissible_astar,ok,644,34746,3672,3.6 KB,0-1-2-3-4
+5,complete asymmetrical,admissible_astar,ok,644,160635,7672,7.5 KB,0-1-2-3-4
+5,complete asymmetrical,ant_colony,ok,644,5888299,16206,15.8 KB,0-1-2-3-4
+5,incomplete symmetrical,dfs,ok,461,17864,1732,1.7 KB,0-2-4-1-3
+5,incomplete symmetrical,bfs,ok,461,22503,4408,4.3 KB,0-2-4-1-3
+5,incomplete symmetrical,nearest_neighbour,no_tour,,4739,764,764 B,
+5,incomplete symmetrical,dijkstra,ok,481,36560,1920,1.9 KB,0-3-4-2-1-2-0
+5,incomplete symmetrical,inadmissible_astar,ok,462,34606,3240,3.2 KB,0-4-2-1-3
+5,incomplete symmetrical,admissible_astar,ok,461,114568,6216,6.1 KB,0-3-1-4-2
+5,incomplete symmetrical,ant_colony,ok,461,5311674,8024,7.8 KB,0-2-4-1-3
+5,incomplete asymmetrical,dfs,ok,457,18034,2084,2.0 KB,0-4-1-3-2
+5,incomplete asymmetrical,bfs,ok,457,24216,3744,3.7 KB,0-4-1-3-2
+5,incomplete asymmetrical,nearest_neighbour,ok,469,4569,796,796 B,0-4-2-3-1
+5,incomplete asymmetrical,dijkstra,ok,469,36950,1832,1.8 KB,0-4-2-3-1-0
+5,incomplete asymmetrical,inadmissible_astar,ok,461,30739,2968,2.9 KB,0-1-3-2-4
+5,incomplete asymmetrical,admissible_astar,ok,457,125208,6696,6.5 KB,0-4-1-3-2
+5,incomplete asymmetrical,ant_colony,ok,457,5405032,8518,8.3 KB,0-4-1-3-2
+6,complete symmetrical,dfs,ok,482,90432,2268,2.2 KB,0-5-1-2-4-3
+6,complete symmetrical,bfs,ok,482,176245,27504,26.9 KB,0-5-1-2-4-3
+6,complete symmetrical,nearest_neighbour,ok,494,5551,804,804 B,0-5-1-2-3-4
+6,complete symmetrical,dijkstra,ok,494,50887,2088,2.0 KB,0-5-1-2-3-4-0
+6,complete symmetrical,inadmissible_astar,ok,494,51938,4764,4.7 KB,0-4-3-2-1-5
+6,complete symmetrical,admissible_astar,ok,482,422643,16320,15.9 KB,0-5-1-2-4-3
+6,complete symmetrical,ant_colony,ok,482,7814751,15159,14.8 KB,0-5-1-2-4-3
+6,complete asymmetrical,dfs,ok,501,120830,1860,1.8 KB,0-3-5-2-4-1
+6,complete asymmetrical,bfs,ok,501,171326,27560,26.9 KB,0-3-5-2-4-1
+6,complete asymmetrical,nearest_neighbour,ok,539,6111,804,804 B,0-4-2-3-5-1
+6,complete asymmetrical,dijkstra,ok,539,65825,2112,2.1 KB,0-4-2-3-5-1-0
+6,complete asymmetrical,inadmissible_astar,ok,501,51769,4764,4.7 KB,0-3-5-2-4-1
+6,complete asymmetrical,admissible_astar,ok,501,379170,17896,17.5 KB,0-3-5-2-4-1
+6,complete asymmetrical,ant_colony,ok,501,8275205,14320,14.0 KB,0-3-5-2-4-1
+6,incomplete symmetrical,dfs,ok,646,46648,1860,1.8 KB,0-5-3-1-4-2
+6,incomplete symmetrical,bfs,ok,646,67398,9136,8.9 KB,0-5-3-1-4-2
+6,incomplete symmetrical,nearest_neighbour,no_tour,,4589,772,772 B,
+6,incomplete symmetrical,dijkstra,ok,723,50025,2136,2.1 KB,0-3-5-0-2-4-1-0
+6,incomplete symmetrical,inadmissible_astar,ok,750,49053,4608,4.5 KB,0-4-2-1-3-5
+6,incomplete symmetrical,admissible_astar,ok,646,249263,8424,8.2 KB,0-5-3-1-4-2
+6,incomplete symmetrical,ant_colony,ok,646,7528346,8412,8.2 KB,0-5-3-1-4-2
+6,incomplete asymmetrical,dfs,ok,629,50947,1796,1.8 KB,0-4-1-3-2-5
+6,incomplete asymmetrical,bfs,ok,629,70354,8944,8.7 KB,0-4-1-3-2-5
+6,incomplete asymmetrical,nearest_neighbour,no_tour,,5992,652,652 B,
+6,incomplete asymmetrical,dijkstra,ok,747,49624,1896,1.9 KB,0-2-3-1-5-2-4-0
+6,incomplete asymmetrical,inadmissible_astar,ok,675,79261,6388,6.2 KB,0-1-3-4-2-5
+6,incomplete asymmetrical,admissible_astar,ok,629,286665,11792,11.5 KB,0-4-1-3-2-5
+6,incomplete asymmetrical,ant_colony,ok,632,7411764,8953,8.7 KB,0-5-1-3-2-4
+7,complete symmetrical,dfs,ok,569,640768,2636,2.6 KB,0-1-5-2-6-4-3
+7,complete symmetrical,bfs,ok,569,1102375,163480,159.6 KB,0-1-5-2-6-4-3
+7,complete symmetrical,nearest_neighbour,ok,622,7474,812,812 B,0-3-5-2-1-6-4
+7,complete symmetrical,dijkstra,ok,622,70053,2248,2.2 KB,0-3-5-2-1-6-4-0
+7,complete symmetrical,inadmissible_astar,ok,590,74842,6136,6.0 KB,0-3-1-5-2-6-4
+7,complete symmetrical,admissible_astar,ok,569,1823856,61720,60.3 KB,0-1-5-2-6-4-3
+7,complete symmetrical,ant_colony,ok,579,10769385,8211,8.0 KB,0-3-5-1-2-6-4
+7,complete asymmetrical,dfs,ok,568,451418,2116,2.1 KB,0-1-2-4-6-5-3
+7,complete asymmetrical,bfs,ok,568,1526461,163480,159.6 KB,0-1-2-4-6-5-3
+7,complete asymmetrical,nearest_neighbour,ok,653,11041,812,812 B,0-3-5-4-2-6-1
+7,complete asymmetrical,dijkstra,ok,653,68871,2296,2.2 KB,0-3-5-4-2-6-1-0
+7,complete asymmetrical,inadmissible_astar,ok,568,93708,6136,6.0 KB,0-1-2-4-6-5-3
+7,complete asymmetrical,admissible_astar,ok,568,618555,20904,20.4 KB,0-1-2-4-6-5-3
+7,complete asymmetrical,ant_colony,ok,595,10432956,14542,14.2 KB,0-3-5-6-4-2-1
+7,incomplete symmetrical,dfs,ok,614,199960,2004,2.0 KB,0-1-3-4-5-6-2
+7,incomplete symmetrical,bfs,ok,614,354233,50208,49.0 KB,0-1-3-4-5-6-2
+7,incomplete symmetrical,nearest_neighbour,no_tour,,6603,780,780 B,
+7,incomplete symmetrical,dijkstra,ok,656,69322,2208,2.2 KB,0-2-1-3-4-5-6-5-0
+7,incomplete symmetrical,inadmissible_astar,ok,638,68270,5304,5.2 KB,0-4-5-6-3-1-2
+7,incomplete symmetrical,admissible_astar,ok,614,728194,22512,22.0 KB,0-2-6-5-4-3-1
+7,incomplete symmetrical,ant_colony,ok,614,9855759,14560,14.2 KB,0-1-3-4-5-6-2
+7,incomplete asymmetrical,dfs,ok,530,263631,2340,2.3 KB,0-4-6-2-3-1-5
+7,incomplete asymmetrical,bfs,ok,530,396935,58112,56.8 KB,0-4-6-2-3-1-5
+7,incomplete asymmetrical,nearest_neighbour,no_tour,,6422,780,780 B,
+7,incomplete asymmetrical,dijkstra,ok,579,70524,2296,2.2 KB,0-4-5-1-3-2-6-2-0
+7,incomplete asymmetrical,inadmissible_astar,ok,616,75283,6112,6.0 KB,0-3-2-6-1-5-4
+7,incomplete asymmetrical,admissible_astar,ok,530,460795,15520,15.2 KB,0-4-6-2-3-1-5
+7,incomplete asymmetrical,ant_colony,ok,530,9768052,14453,14.1 KB,0-4-6-2-3-1-5
+8,complete symmetrical,dfs,ok,595,2776887,2212,2.2 KB,0-1-6-4-2-3-5-7
+8,complete symmetrical,bfs,ok,595,8415713,1172456,1.1 MB,0-1-6-4-2-3-5-7
+8,complete symmetrical,nearest_neighbour,ok,611,9338,820,820 B,0-5-3-7-2-4-6-1
+8,complete symmetrical,dijkstra,ok,611,89460,2408,2.4 KB,0-5-3-7-2-4-6-1-0
+8,complete symmetrical,inadmissible_astar,ok,595,101303,7624,7.4 KB,0-1-6-4-2-3-5-7
+8,complete symmetrical,admissible_astar,ok,595,1019598,27472,26.8 KB,0-7-5-3-2-4-6-1
+8,complete symmetrical,ant_colony,ok,595,12888392,15665,15.3 KB,0-1-6-4-2-3-5-7
+8,complete asymmetrical,dfs,ok,479,1822293,2580,2.5 KB,0-2-6-3-5-4-7-1
+8,complete asymmetrical,bfs,ok,479,7553313,1172456,1.1 MB,0-2-6-3-5-4-7-1
+8,complete asymmetrical,nearest_neighbour,ok,592,8707,820,820 B,0-2-6-3-1-7-4-5
+8,complete asymmetrical,dijkstra,ok,580,93698,2720,2.7 KB,0-2-6-3-1-7-4-5-3-0
+8,complete asymmetrical,inadmissible_astar,ok,557,106342,7624,7.4 KB,0-5-4-7-1-3-6-2
+8,complete asymmetrical,admissible_astar,ok,479,1871737,47568,46.5 KB,0-2-6-3-5-4-7-1
+8,complete asymmetrical,ant_colony,ok,479,13085336,15701,15.3 KB,0-2-6-3-5-4-7-1
+8,incomplete symmetrical,dfs,ok,622,996213,2356,2.3 KB,0-3-5-2-1-6-7-4
+8,incomplete symmetrical,bfs,ok,622,1932272,247400,241.6 KB,0-3-5-2-1-6-7-4
+8,incomplete symmetrical,nearest_neighbour,ok,667,9057,820,820 B,0-4-7-5-3-2-1-6
+8,incomplete symmetrical,dijkstra,ok,667,89550,2392,2.3 KB,0-4-7-5-3-2-1-6-0
+8,incomplete symmetrical,inadmissible_astar,ok,622,87967,6304,6.2 KB,0-3-5-2-1-6-7-4
+8,incomplete symmetrical,admissible_astar,ok,622,967889,25776,25.2 KB,0-4-7-6-1-2-5-3
+8,incomplete symmetrical,ant_colony,ok,622,12029510,15202,14.8 KB,0-4-7-6-1-2-5-3
+8,incomplete asymmetrical,dfs,ok,633,1123655,2524,2.5 KB,0-7-1-6-5-3-4-2
+8,incomplete asymmetrical,bfs,ok,633,1659694,189368,184.9 KB,0-7-1-6-5-3-4-2
+8,incomplete asymmetrical,nearest_neighbour,no_tour,,7945,788,788 B,
+8,incomplete asymmetrical,dijkstra,ok,676,91344,2568,2.5 KB,0-4-3-5-2-1-6-1-7-0
+8,incomplete asymmetrical,inadmissible_astar,ok,656,529526,38376,37.5 KB,0-4-2-5-3-6-1-7
+8,incomplete asymmetrical,admissible_astar,ok,633,3715330,73448,71.7 KB,0-7-1-6-5-3-4-2
+8,incomplete asymmetrical,ant_colony,ok,656,11852914,15123,14.8 KB,0-4-2-5-3-6-1-7
+9,complete symmetrical,dfs,ok,533,7473743,3072,3.0 KB,0-5-6-8-4-2-1-3-7
+9,complete symmetrical,bfs,ok,533,74908920,10981340,10.5 MB,0-5-6-8-4-2-1-3-7
+9,complete symmetrical,nearest_neighbour,ok,536,14658,540,540 B,0-5-6-4-8-2-1-3-7
+9,complete symmetrical,dijkstra,ok,536,118956,2632,2.6 KB,0-5-6-4-8-2-1-3-7-0
+9,complete symmetrical,inadmissible_astar,ok,536,170554,9840,9.6 KB,0-7-3-1-2-8-4-6-5
+9,complete symmetrical,admissible_astar,ok,533,1779813,35176,34.4 KB,0-5-6-8-4-2-1-3-7
+9,complete symmetrical,ant_colony,ok,533,16766922,15865,15.5 KB,0-5-6-8-4-2-1-3-7
+9,complete asymmetrical,dfs,ok,567,11846461,3600,3.5 KB,0-6-4-3-8-5-1-7-2
+9,complete asymmetrical,bfs,ok,567,72939708,10981340,10.5 MB,0-6-4-3-8-5-1-7-2
+9,complete asymmetrical,nearest_neighbour,ok,583,12083,540,540 B,0-2-7-1-8-5-3-4-6
+9,complete asymmetrical,dijkstra,ok,583,129386,2744,2.7 KB,0-2-7-1-8-5-3-4-6-0
+9,complete asymmetrical,inadmissible_astar,ok,567,148863,9936,9.7 KB,0-6-4-3-8-5-1-7-2
+9,complete asymmetrical,admissible_astar,ok,567,1374713,39504,38.6 KB,0-6-4-3-8-5-1-7-2
+9,complete asymmetrical,ant_colony,ok,567,16058145,16241,15.9 KB,0-6-4-3-8-5-1-7-2
+9,incomplete symmetrical,dfs,ok,513,3810832,2816,2.8 KB,0-4-1-2-8-5-3-6-7
+9,incomplete symmetrical,bfs,ok,513,13096438,1807304,1.7 MB,0-4-1-2-8-5-3-6-7
+9,incomplete symmetrical,nearest_neighbour,ok,513,10680,892,892 B,0-4-1-2-8-5-3-6-7
+9,incomplete symmetrical,dijkstra,ok,513,119457,2704,2.6 KB,0-4-1-2-8-5-3-6-7-0
+9,incomplete symmetrical,inadmissible_astar,ok,513,495822,27136,26.5 KB,0-4-1-2-8-5-3-6-7
+9,incomplete symmetrical,admissible_astar,ok,513,1278740,27679,27.0 KB,0-4-1-2-8-5-3-6-7
+9,incomplete symmetrical,ant_colony,ok,513,14873504,14653,14.3 KB,0-4-1-2-8-5-3-6-7
+9,incomplete asymmetrical,dfs,ok,511,2486766,2216,2.2 KB,0-1-4-7-3-2-5-6-8
+9,incomplete asymmetrical,bfs,ok,511,15542696,2281416,2.2 MB,0-1-4-7-3-2-5-6-8
+9,incomplete asymmetrical,nearest_neighbour,ok,609,10169,892,892 B,0-8-1-3-7-4-5-2-6
+9,incomplete asymmetrical,dijkstra,ok,626,118265,2768,2.7 KB,0-8-1-0-6-5-2-3-7-4-8-0
+9,incomplete asymmetrical,inadmissible_astar,ok,573,154614,14499,14.2 KB,0-3-7-4-5-2-6-8-1
+9,incomplete asymmetrical,admissible_astar,ok,511,1528645,32296,31.5 KB,0-1-4-7-3-2-5-6-8
+9,incomplete asymmetrical,ant_colony,ok,539,14889184,13814,13.5 KB,0-8-1-4-7-3-2-5-6
+10,complete symmetrical,dfs,ok,601,72912346,7303,7.1 KB,0-4-9-6-3-8-5-2-1-7
+10,complete symmetrical,bfs,ok,601,802300410,101699836,97.0 MB,0-4-9-6-3-8-5-2-1-7
+10,complete symmetrical,nearest_neighbour,ok,602,17914,548,548 B,0-7-1-2-5-8-6-3-9-4
+10,complete symmetrical,dijkstra,ok,602,157249,2856,2.8 KB,0-7-1-2-5-8-6-3-9-4-0
+10,complete symmetrical,inadmissible_astar,ok,602,202154,12608,12.3 KB,0-4-9-3-6-8-5-2-1-7
+10,complete symmetrical,admissible_astar,ok,601,2246099,41448,40.5 KB,0-4-9-6-3-8-5-2-1-7
+10,complete symmetrical,ant_colony,ok,601,19883555,17159,16.8 KB,0-7-1-2-5-8-3-6-9-4
+10,complete asymmetrical,dfs,ok,659,39591265,3504,3.4 KB,0-3-7-6-5-2-4-9-8-1
+10,complete asymmetrical,bfs,ok,659,835423865,101700244,97.0 MB,0-3-7-6-5-2-4-9-8-1
+10,complete asymmetrical,nearest_neighbour,ok,738,16832,548,548 B,0-1-3-7-6-4-2-5-9-8
+10,complete asymmetrical,dijkstra,ok,738,183118,3144,3.1 KB,0-1-3-7-6-4-2-5-9-8-0
+10,complete asymmetrical,inadmissible_astar,ok,721,195130,12320,12.0 KB,0-5-2-4-9-8-1-3-7-6
+10,complete asymmetrical,admissible_astar,ok,659,11061089,181160,176.9 KB,0-3-7-6-5-2-4-9-8-1
+10,complete asymmetrical,ant_colony,ok,673,20031747,16723,16.3 KB,0-1-3-7-6-5-2-4-9-8
+10,incomplete symmetrical,dfs,ok,530,23360933,2888,2.8 KB,0-6-7-8-4-5-9-3-1-2
+10,incomplete symmetrical,bfs,ok,530,112392631,14147416,13.5 MB,0-6-7-8-4-5-9-3-1-2
+10,incomplete symmetrical,nearest_neighbour,ok,608,15780,548,548 B,0-6-9-5-3-2-1-8-4-7
+10,incomplete symmetrical,dijkstra,ok,608,147430,2864,2.8 KB,0-6-9-5-3-2-1-8-4-7-0
+10,incomplete symmetrical,inadmissible_astar,ok,599,170364,10336,10.1 KB,0-7-8-4-6-9-5-1-3-2
+10,incomplete symmetrical,admissible_astar,ok,530,15288232,310032,302.8 KB,0-6-7-8-4-5-9-3-1-2
+10,incomplete symmetrical,ant_colony,ok,569,17729291,16609,16.2 KB,0-6-2-1-3-9-5-4-8-7
+10,incomplete asymmetrical,dfs,ok,607,12416375,2608,2.5 KB,0-1-6-8-5-2-4-3-7-9
+10,incomplete asymmetrical,bfs,ok,607,97764923,11510980,11.0 MB,0-1-6-8-5-2-4-3-7-9
+10,incomplete asymmetrical,nearest_neighbour,no_tour,,16372,516,516 B,
+10,incomplete asymmetrical,dijkstra,ok,850,157058,2888,2.8 KB,0-1-9-7-3-2-5-8-6-8-4-0
+10,incomplete asymmetrical,inadmissible_astar,ok,649,293668,17128,16.7 KB,0-1-9-7-3-4-2-5-8-6
+10,incomplete asymmetrical,admissible_astar,ok,607,2444846,42024,41.0 KB,0-1-6-8-5-2-4-3-7-9
+10,incomplete asymmetrical,ant_colony,ok,607,17012970,16553,16.2 KB,0-1-6-8-5-2-4-3-7-9
 11,complete symmetrical,dfs,skipped,,,,,
 11,complete symmetrical,bfs,skipped,,,,,
-11,complete symmetrical,nearest_neighbour,ok,727,12714,972,972 B,0-3-2-10-5-4-1-9-6-7-8
-11,complete symmetrical,dijkstra,ok,727,314119,3080,3.0 KB,0-3-2-10-5-4-1-9-6-7-8-0
-11,complete symmetrical,inadmissible_astar,ok,727,323748,15876,15.5 KB,0-8-7-6-9-1-4-5-10-2-3
+11,complete symmetrical,nearest_neighbour,ok,727,10439,556,556 B,0-3-2-10-5-4-1-9-6-7-8
+11,complete symmetrical,dijkstra,ok,727,190762,3016,2.9 KB,0-3-2-10-5-4-1-9-6-7-8-0
+11,complete symmetrical,inadmissible_astar,ok,727,269111,15812,15.4 KB,0-8-7-6-9-1-4-5-10-2-3
 11,complete symmetrical,admissible_astar,skipped,,,,,
-11,complete symmetrical,ant_colony,ok,717,34639055,12856,12.6 KB,0-6-7-8-9-1-5-4-10-2-3
+11,complete symmetrical,ant_colony,ok,717,25514075,18216,17.8 KB,0-6-7-8-9-1-5-4-10-2-3
 11,complete asymmetrical,dfs,skipped,,,,,
 11,complete asymmetrical,bfs,skipped,,,,,
-11,complete asymmetrical,nearest_neighbour,ok,723,13094,972,972 B,0-4-6-5-7-10-9-3-8-1-2
-11,complete asymmetrical,dijkstra,ok,723,236924,3288,3.2 KB,0-4-6-5-7-10-9-3-8-1-2-0
-11,complete asymmetrical,inadmissible_astar,ok,646,325661,15684,15.3 KB,0-7-10-9-3-8-1-2-6-5-4
+11,complete asymmetrical,nearest_neighbour,ok,723,10550,556,556 B,0-4-6-5-7-10-9-3-8-1-2
+11,complete asymmetrical,dijkstra,ok,723,196724,3224,3.1 KB,0-4-6-5-7-10-9-3-8-1-2-0
+11,complete asymmetrical,inadmissible_astar,ok,646,268420,15620,15.3 KB,0-7-10-9-3-8-1-2-6-5-4
 11,complete asymmetrical,admissible_astar,skipped,,,,,
-11,complete asymmetrical,ant_colony,ok,629,33429585,12968,12.7 KB,0-4-6-5-2-1-8-3-9-10-7
+11,complete asymmetrical,ant_colony,ok,629,25470081,18143,17.7 KB,0-4-6-5-2-1-8-3-9-10-7
 11,incomplete symmetrical,dfs,skipped,,,,,
 11,incomplete symmetrical,bfs,skipped,,,,,
-11,incomplete symmetrical,nearest_neighbour,no_tour,,13986,940,940 B,
-11,incomplete symmetrical,dijkstra,ok,538,236294,3112,3.0 KB,0-4-0-7-1-3-5-2-8-6-10-9-0
-11,incomplete symmetrical,inadmissible_astar,ok,559,278352,12972,12.7 KB,0-8-6-10-9-7-1-3-5-2-4
+11,incomplete symmetrical,nearest_neighbour,no_tour,,11362,524,524 B,
+11,incomplete symmetrical,dijkstra,ok,538,188187,3048,3.0 KB,0-4-0-7-1-3-5-2-8-6-10-9-0
+11,incomplete symmetrical,inadmissible_astar,ok,559,227201,12908,12.6 KB,0-8-6-10-9-7-1-3-5-2-4
 11,incomplete symmetrical,admissible_astar,skipped,,,,,
-11,incomplete symmetrical,ant_colony,ok,517,28399073,12712,12.4 KB,0-4-9-10-6-8-3-5-2-1-7
+11,incomplete symmetrical,ant_colony,ok,517,23784558,18078,17.7 KB,0-4-9-10-6-8-3-5-2-1-7
 11,incomplete asymmetrical,dfs,skipped,,,,,
 11,incomplete asymmetrical,bfs,skipped,,,,,
-11,incomplete asymmetrical,nearest_neighbour,ok,898,13475,972,972 B,0-8-4-5-3-10-2-9-7-6-1
-11,incomplete asymmetrical,dijkstra,ok,916,244890,3328,3.2 KB,0-8-4-5-3-10-2-5-7-9-1-6-3-0
-11,incomplete asymmetrical,inadmissible_astar,ok,917,577434,29980,29.3 KB,0-3-10-5-8-4-7-9-6-1-2
+11,incomplete asymmetrical,nearest_neighbour,ok,898,11302,556,556 B,0-8-4-5-3-10-2-9-7-6-1
+11,incomplete asymmetrical,dijkstra,ok,916,191484,3264,3.2 KB,0-8-4-5-3-10-2-5-7-9-1-6-3-0
+11,incomplete asymmetrical,inadmissible_astar,ok,917,474441,29916,29.2 KB,0-3-10-5-8-4-7-9-6-1-2
 11,incomplete asymmetrical,admissible_astar,skipped,,,,,
-11,incomplete asymmetrical,ant_colony,ok,798,28214366,12676,12.4 KB,0-3-5-8-4-7-9-1-6-10-2
+11,incomplete asymmetrical,ant_colony,ok,798,23357536,17797,17.4 KB,0-3-5-8-4-7-9-1-6-10-2
 12,complete symmetrical,dfs,skipped,,,,,
 12,complete symmetrical,bfs,skipped,,,,,
-12,complete symmetrical,nearest_neighbour,ok,746,16841,980,980 B,0-5-11-6-9-7-2-1-3-8-4-10
-12,complete symmetrical,dijkstra,ok,746,358453,3240,3.2 KB,0-5-11-6-9-7-2-1-3-8-4-10-0
-12,complete symmetrical,inadmissible_astar,ok,729,421170,18916,18.5 KB,0-10-4-8-3-1-2-9-7-6-11-5
+12,complete symmetrical,nearest_neighbour,ok,746,16501,564,564 B,0-5-11-6-9-7-2-1-3-8-4-10
+12,complete symmetrical,dijkstra,ok,746,240697,3176,3.1 KB,0-5-11-6-9-7-2-1-3-8-4-10-0
+12,complete symmetrical,inadmissible_astar,ok,729,357700,18852,18.4 KB,0-10-4-8-3-1-2-9-7-6-11-5
 12,complete symmetrical,admissible_astar,skipped,,,,,
-12,complete symmetrical,ant_colony,ok,729,40567142,13952,13.6 KB,0-5-11-6-7-9-2-1-3-8-4-10
+12,complete symmetrical,ant_colony,ok,729,34120440,19596,19.1 KB,0-5-11-6-7-9-2-1-3-8-4-10
 12,complete asymmetrical,dfs,skipped,,,,,
 12,complete asymmetrical,bfs,skipped,,,,,
-12,complete asymmetrical,nearest_neighbour,ok,853,14697,980,980 B,0-6-11-1-2-10-5-7-8-4-9-3
-12,complete asymmetrical,dijkstra,ok,853,298330,3448,3.4 KB,0-6-11-1-2-10-5-7-8-4-9-3-0
-12,complete asymmetrical,inadmissible_astar,ok,818,429737,18576,18.1 KB,0-5-2-10-1-11-6-7-8-4-3-9
+12,complete asymmetrical,nearest_neighbour,ok,853,13055,564,564 B,0-6-11-1-2-10-5-7-8-4-9-3
+12,complete asymmetrical,dijkstra,ok,853,264342,3384,3.3 KB,0-6-11-1-2-10-5-7-8-4-9-3-0
+12,complete asymmetrical,inadmissible_astar,ok,818,368169,18512,18.1 KB,0-5-2-10-1-11-6-7-8-4-3-9
 12,complete asymmetrical,admissible_astar,skipped,,,,,
-12,complete asymmetrical,ant_colony,ok,802,41265342,14064,13.7 KB,0-2-10-1-11-6-7-8-4-9-3-5
+12,complete asymmetrical,ant_colony,ok,802,33715340,19271,18.8 KB,0-2-10-1-11-6-7-8-4-9-3-5
 12,incomplete symmetrical,dfs,skipped,,,,,
 12,incomplete symmetrical,bfs,skipped,,,,,
-12,incomplete symmetrical,nearest_neighbour,ok,722,15780,980,980 B,0-8-11-7-2-9-3-10-5-6-4-1
-12,incomplete symmetrical,dijkstra,ok,722,306224,3424,3.3 KB,0-8-11-7-2-9-3-10-5-6-4-1-0
-12,incomplete symmetrical,inadmissible_astar,ok,661,578476,15020,14.7 KB,0-6-4-1-5-10-3-9-2-7-11-8
+12,incomplete symmetrical,nearest_neighbour,ok,722,12644,564,564 B,0-8-11-7-2-9-3-10-5-6-4-1
+12,incomplete symmetrical,dijkstra,ok,722,237481,3360,3.3 KB,0-8-11-7-2-9-3-10-5-6-4-1-0
+12,incomplete symmetrical,inadmissible_astar,ok,661,301072,14956,14.6 KB,0-6-4-1-5-10-3-9-2-7-11-8
 12,incomplete symmetrical,admissible_astar,skipped,,,,,
-12,incomplete symmetrical,ant_colony,ok,621,38038907,13808,13.5 KB,0-8-11-4-6-1-7-2-5-10-3-9
+12,incomplete symmetrical,ant_colony,ok,621,30155264,19013,18.6 KB,0-8-11-4-6-1-7-2-5-10-3-9
 12,incomplete asymmetrical,dfs,skipped,,,,,
 12,incomplete asymmetrical,bfs,skipped,,,,,
-12,incomplete asymmetrical,nearest_neighbour,no_tour,,14647,948,948 B,
-12,incomplete asymmetrical,dijkstra,ok,782,291497,3424,3.3 KB,0-3-7-2-5-2-6-8-1-10-4-9-4-11-0
-12,incomplete asymmetrical,inadmissible_astar,ok,726,5388574,216368,211.3 KB,0-5-2-8-6-11-4-9-1-10-3-7
+12,incomplete asymmetrical,nearest_neighbour,no_tour,,12684,532,532 B,
+12,incomplete asymmetrical,dijkstra,ok,782,240056,3360,3.3 KB,0-3-7-2-5-2-6-8-1-10-4-9-4-11-0
+12,incomplete asymmetrical,inadmissible_astar,ok,726,4288639,216304,211.2 KB,0-5-2-8-6-11-4-9-1-10-3-7
 12,incomplete asymmetrical,admissible_astar,skipped,,,,,
-12,incomplete asymmetrical,ant_colony,ok,671,36759094,13720,13.4 KB,0-3-7-2-5-8-6-11-4-9-1-10
+12,incomplete asymmetrical,ant_colony,ok,671,29012292,19100,18.7 KB,0-3-7-2-5-8-6-11-4-9-1-10
 13,complete symmetrical,dfs,skipped,,,,,
 13,complete symmetrical,bfs,skipped,,,,,
-13,complete symmetrical,nearest_neighbour,ok,794,16070,988,988 B,0-6-11-1-3-2-7-9-4-8-12-5-10
-13,complete symmetrical,dijkstra,ok,794,372139,3400,3.3 KB,0-6-11-1-3-2-7-9-4-8-12-5-10-0
-13,complete symmetrical,inadmissible_astar,ok,665,564780,22100,21.6 KB,0-5-12-10-8-4-9-7-2-3-1-11-6
+13,complete symmetrical,nearest_neighbour,ok,794,14037,572,572 B,0-6-11-1-3-2-7-9-4-8-12-5-10
+13,complete symmetrical,dijkstra,ok,794,293759,3336,3.3 KB,0-6-11-1-3-2-7-9-4-8-12-5-10-0
+13,complete symmetrical,inadmissible_astar,ok,665,443974,22036,21.5 KB,0-5-12-10-8-4-9-7-2-3-1-11-6
 13,complete symmetrical,admissible_astar,skipped,,,,,
-13,complete symmetrical,ant_colony,ok,665,52704714,15184,14.8 KB,0-6-11-1-3-2-7-9-4-8-10-12-5
+13,complete symmetrical,ant_colony,ok,665,42557593,20457,20.0 KB,0-6-11-1-3-2-7-9-4-8-10-12-5
 13,complete asymmetrical,dfs,skipped,,,,,
 13,complete asymmetrical,bfs,skipped,,,,,
-13,complete asymmetrical,nearest_neighbour,ok,873,16231,988,988 B,0-11-12-1-7-3-6-4-2-9-8-10-5
-13,complete asymmetrical,dijkstra,ok,858,376076,3784,3.7 KB,0-11-12-1-7-3-6-4-2-9-8-9-10-5-11-0
-13,complete asymmetrical,inadmissible_astar,ok,688,582744,22296,21.8 KB,0-9-8-2-6-4-3-7-1-5-10-12-11
+13,complete asymmetrical,nearest_neighbour,ok,873,13967,572,572 B,0-11-12-1-7-3-6-4-2-9-8-10-5
+13,complete asymmetrical,dijkstra,ok,858,393638,3720,3.6 KB,0-11-12-1-7-3-6-4-2-9-8-9-10-5-11-0
+13,complete asymmetrical,inadmissible_astar,ok,688,455345,22200,21.7 KB,0-9-8-2-6-4-3-7-1-5-10-12-11
 13,complete asymmetrical,admissible_astar,skipped,,,,,
-13,complete asymmetrical,ant_colony,ok,714,52967045,15128,14.8 KB,0-11-12-10-5-1-7-3-4-6-2-8-9
+13,complete asymmetrical,ant_colony,ok,714,42551181,20189,19.7 KB,0-11-12-10-5-1-7-3-4-6-2-8-9
 13,incomplete symmetrical,dfs,skipped,,,,,
 13,incomplete symmetrical,bfs,skipped,,,,,
-13,incomplete symmetrical,nearest_neighbour,ok,856,17553,988,988 B,0-11-1-12-5-4-3-9-8-7-10-6-2
-13,incomplete symmetrical,dijkstra,ok,824,362300,3584,3.5 KB,0-11-1-12-5-4-3-9-8-7-10-7-2-6-0
-13,incomplete symmetrical,inadmissible_astar,ok,818,506240,19588,19.1 KB,0-2-6-11-1-12-5-4-3-9-8-10-7
+13,incomplete symmetrical,nearest_neighbour,ok,856,14467,572,572 B,0-11-1-12-5-4-3-9-8-7-10-6-2
+13,incomplete symmetrical,dijkstra,ok,824,299218,3520,3.4 KB,0-11-1-12-5-4-3-9-8-7-10-7-2-6-0
+13,incomplete symmetrical,inadmissible_astar,ok,818,430398,19524,19.1 KB,0-2-6-11-1-12-5-4-3-9-8-10-7
 13,incomplete symmetrical,admissible_astar,skipped,,,,,
-13,incomplete symmetrical,ant_colony,ok,780,45800364,14992,14.6 KB,0-11-1-12-6-2-7-10-8-5-4-3-9
+13,incomplete symmetrical,ant_colony,ok,780,38238966,20235,19.8 KB,0-11-1-12-6-2-7-10-8-5-4-3-9
 13,incomplete asymmetrical,dfs,skipped,,,,,
 13,incomplete asymmetrical,bfs,skipped,,,,,
-13,incomplete asymmetrical,nearest_neighbour,ok,970,17212,988,988 B,0-10-9-4-6-3-1-11-12-2-7-8-5
-13,incomplete asymmetrical,dijkstra,ok,947,357701,3760,3.7 KB,0-10-9-4-6-3-1-11-12-2-7-8-5-9-0
-13,incomplete asymmetrical,inadmissible_astar,ok,942,20780053,826808,807.4 KB,0-4-2-12-7-3-1-11-5-8-6-9-10
+13,incomplete asymmetrical,nearest_neighbour,ok,970,14418,572,572 B,0-10-9-4-6-3-1-11-12-2-7-8-5
+13,incomplete asymmetrical,dijkstra,ok,947,302805,3696,3.6 KB,0-10-9-4-6-3-1-11-12-2-7-8-5-9-0
+13,incomplete asymmetrical,inadmissible_astar,ok,942,18075970,827632,808.2 KB,0-4-2-12-7-3-1-11-5-8-6-9-10
 13,incomplete asymmetrical,admissible_astar,skipped,,,,,
-13,incomplete asymmetrical,ant_colony,ok,852,46709260,14872,14.5 KB,0-10-7-2-12-11-1-3-8-5-9-4-6
+13,incomplete asymmetrical,ant_colony,ok,852,36510992,18161,17.7 KB,0-10-7-2-12-11-1-3-8-5-9-4-6
 14,complete symmetrical,dfs,skipped,,,,,
 14,complete symmetrical,bfs,skipped,,,,,
-14,complete symmetrical,nearest_neighbour,ok,790,18384,996,996 B,0-5-7-6-13-8-4-3-2-1-11-12-9-10
-14,complete symmetrical,dijkstra,ok,790,435107,3560,3.5 KB,0-5-7-6-13-8-4-3-2-1-11-12-9-10-0
-14,complete symmetrical,inadmissible_astar,ok,700,713389,26012,25.4 KB,0-10-6-13-3-2-4-8-1-11-12-9-7-5
+14,complete symmetrical,nearest_neighbour,ok,790,14758,580,580 B,0-5-7-6-13-8-4-3-2-1-11-12-9-10
+14,complete symmetrical,dijkstra,ok,790,357018,3496,3.4 KB,0-5-7-6-13-8-4-3-2-1-11-12-9-10-0
+14,complete symmetrical,inadmissible_astar,ok,700,610380,25948,25.3 KB,0-10-6-13-3-2-4-8-1-11-12-9-7-5
 14,complete symmetrical,admissible_astar,skipped,,,,,
-14,complete symmetrical,ant_colony,ok,668,65334178,16520,16.1 KB,0-5-7-10-6-13-8-4-2-3-1-11-12-9
+14,complete symmetrical,ant_colony,ok,668,50660821,21817,21.3 KB,0-5-7-10-6-13-8-4-2-3-1-11-12-9
 14,complete asymmetrical,dfs,skipped,,,,,
 14,complete asymmetrical,bfs,skipped,,,,,
-14,complete asymmetrical,nearest_neighbour,ok,781,17983,996,996 B,0-3-8-13-10-4-5-11-6-12-7-2-9-1
-14,complete asymmetrical,dijkstra,ok,763,661622,4160,4.1 KB,0-3-8-13-10-4-5-11-6-12-7-2-9-7-1-0
-14,complete asymmetrical,inadmissible_astar,ok,788,715863,25820,25.2 KB,0-3-8-13-10-9-7-2-12-6-11-4-5-1
+14,complete asymmetrical,nearest_neighbour,ok,781,14988,580,580 B,0-3-8-13-10-4-5-11-6-12-7-2-9-1
+14,complete asymmetrical,dijkstra,ok,763,369492,4096,4.0 KB,0-3-8-13-10-4-5-11-6-12-7-2-9-7-1-0
+14,complete asymmetrical,inadmissible_astar,ok,788,612303,25756,25.2 KB,0-3-8-13-10-9-7-2-12-6-11-4-5-1
 14,complete asymmetrical,admissible_astar,skipped,,,,,
-14,complete asymmetrical,ant_colony,ok,707,66718497,16408,16.0 KB,0-3-8-13-10-4-5-11-6-12-9-7-2-1
+14,complete asymmetrical,ant_colony,ok,707,53960442,21493,21.0 KB,0-3-8-13-10-4-5-11-6-12-9-7-2-1
 14,incomplete symmetrical,dfs,skipped,,,,,
 14,incomplete symmetrical,bfs,skipped,,,,,
-14,incomplete symmetrical,nearest_neighbour,ok,690,17924,996,996 B,0-3-6-7-4-10-9-2-12-8-5-1-11-13
-14,incomplete symmetrical,dijkstra,ok,721,425429,3744,3.7 KB,0-3-6-7-4-10-4-2-9-12-8-5-1-11-13-0
-14,incomplete symmetrical,inadmissible_astar,ok,670,1533148,63276,61.8 KB,0-13-11-1-3-6-7-4-10-9-12-2-8-5
+14,incomplete symmetrical,nearest_neighbour,ok,690,14878,580,580 B,0-3-6-7-4-10-9-2-12-8-5-1-11-13
+14,incomplete symmetrical,dijkstra,ok,721,355837,3680,3.6 KB,0-3-6-7-4-10-4-2-9-12-8-5-1-11-13-0
+14,incomplete symmetrical,inadmissible_astar,ok,670,1260816,63212,61.7 KB,0-13-11-1-3-6-7-4-10-9-12-2-8-5
 14,incomplete symmetrical,admissible_astar,skipped,,,,,
-14,incomplete symmetrical,ant_colony,ok,642,56107350,16184,15.8 KB,0-1-11-13-3-6-7-10-4-9-2-12-8-5
+14,incomplete symmetrical,ant_colony,ok,642,45348807,21517,21.0 KB,0-1-11-13-3-6-7-10-4-9-2-12-8-5
 14,incomplete asymmetrical,dfs,skipped,,,,,
 14,incomplete asymmetrical,bfs,skipped,,,,,
-14,incomplete asymmetrical,nearest_neighbour,ok,1114,19096,996,996 B,0-10-1-3-13-2-5-4-12-11-9-8-7-6
-14,incomplete asymmetrical,dijkstra,ok,915,442811,4072,4.0 KB,0-10-1-3-1-8-13-2-5-4-12-11-9-12-7-6-0
-14,incomplete asymmetrical,inadmissible_astar,ok,945,44277396,1576184,1.5 MB,0-3-1-8-4-5-2-9-11-12-7-6-13-10
+14,incomplete asymmetrical,nearest_neighbour,ok,1114,15169,580,580 B,0-10-1-3-13-2-5-4-12-11-9-8-7-6
+14,incomplete asymmetrical,dijkstra,ok,915,353763,4008,3.9 KB,0-10-1-3-1-8-13-2-5-4-12-11-9-12-7-6-0
+14,incomplete asymmetrical,inadmissible_astar,ok,945,33983949,1579364,1.5 MB,0-3-1-8-4-5-2-9-11-12-7-6-13-10
 14,incomplete asymmetrical,admissible_astar,skipped,,,,,
-14,incomplete asymmetrical,ant_colony,ok,964,57692866,16152,15.8 KB,0-10-1-3-13-6-7-11-9-12-4-5-2-8
+14,incomplete asymmetrical,ant_colony,ok,964,44868655,20168,19.7 KB,0-10-1-3-13-6-7-11-9-12-4-5-2-8
 15,complete symmetrical,dfs,skipped,,,,,
 15,complete symmetrical,bfs,skipped,,,,,
-15,complete symmetrical,nearest_neighbour,ok,847,19146,1004,1004 B,0-6-8-2-1-3-4-14-5-13-9-10-12-7-11
-15,complete symmetrical,dijkstra,ok,847,530797,3720,3.6 KB,0-6-8-2-1-3-4-14-5-13-9-10-12-7-11-0
-15,complete symmetrical,inadmissible_astar,ok,731,875784,29764,29.1 KB,0-7-12-10-9-1-4-3-13-5-14-11-2-8-6
+15,complete symmetrical,nearest_neighbour,ok,847,16121,588,588 B,0-6-8-2-1-3-4-14-5-13-9-10-12-7-11
+15,complete symmetrical,dijkstra,ok,847,464943,3656,3.6 KB,0-6-8-2-1-3-4-14-5-13-9-10-12-7-11-0
+15,complete symmetrical,inadmissible_astar,ok,731,731210,29700,29.0 KB,0-7-12-10-9-1-4-3-13-5-14-11-2-8-6
 15,complete symmetrical,admissible_astar,skipped,,,,,
-15,complete symmetrical,ant_colony,ok,725,76429463,17712,17.3 KB,0-6-8-2-11-14-5-13-4-3-1-9-10-12-7
+15,complete symmetrical,ant_colony,ok,725,61457658,23097,22.6 KB,0-6-8-2-11-14-5-13-4-3-1-9-10-12-7
 15,complete asymmetrical,dfs,skipped,,,,,
 15,complete asymmetrical,bfs,skipped,,,,,
-15,complete asymmetrical,nearest_neighbour,ok,749,20148,1004,1004 B,0-12-11-7-14-5-2-3-9-1-4-13-6-10-8
-15,complete asymmetrical,dijkstra,ok,749,547167,4256,4.2 KB,0-12-11-7-14-5-2-3-9-1-4-13-6-10-8-0
-15,complete asymmetrical,inadmissible_astar,ok,710,949973,29960,29.3 KB,0-8-10-6-13-4-1-9-5-2-3-14-7-11-12
+15,complete asymmetrical,nearest_neighbour,ok,749,16992,588,588 B,0-12-11-7-14-5-2-3-9-1-4-13-6-10-8
+15,complete asymmetrical,dijkstra,ok,749,466587,4192,4.1 KB,0-12-11-7-14-5-2-3-9-1-4-13-6-10-8-0
+15,complete asymmetrical,inadmissible_astar,ok,710,748553,29896,29.2 KB,0-8-10-6-13-4-1-9-5-2-3-14-7-11-12
 15,complete asymmetrical,admissible_astar,skipped,,,,,
-15,complete asymmetrical,ant_colony,ok,735,81811665,17880,17.5 KB,0-12-11-7-14-5-3-2-9-1-4-6-13-10-8
+15,complete asymmetrical,ant_colony,ok,735,62380373,23231,22.7 KB,0-12-11-7-14-5-3-2-9-1-4-6-13-10-8
 15,incomplete symmetrical,dfs,skipped,,,,,
 15,incomplete symmetrical,bfs,skipped,,,,,
-15,incomplete symmetrical,nearest_neighbour,no_tour,,20488,972,972 B,
-15,incomplete symmetrical,dijkstra,ok,980,523012,3912,3.8 KB,0-6-5-13-14-4-12-9-11-7-2-1-8-3-12-10-0
-15,incomplete symmetrical,inadmissible_astar,ok,836,542521088,14954064,14.3 MB,0-5-13-8-7-11-2-1-9-3-4-12-10-14-6
+15,incomplete symmetrical,nearest_neighbour,no_tour,,17453,556,556 B,
+15,incomplete symmetrical,dijkstra,ok,980,427272,3848,3.8 KB,0-6-5-13-14-4-12-9-11-7-2-1-8-3-12-10-0
+15,incomplete symmetrical,inadmissible_astar,ok,836,439518952,14958584,14.3 MB,0-5-13-8-7-11-2-1-9-3-4-12-10-14-6
 15,incomplete symmetrical,admissible_astar,skipped,,,,,
-15,incomplete symmetrical,ant_colony,ok,839,58484362,17520,17.1 KB,0-6-5-13-14-10-12-9-2-1-8-7-11-4-3
+15,incomplete symmetrical,ant_colony,ok,839,55529132,21546,21.0 KB,0-6-5-13-14-10-12-9-2-1-8-7-11-4-3
 15,incomplete asymmetrical,dfs,skipped,,,,,
 15,incomplete asymmetrical,bfs,skipped,,,,,
-15,incomplete asymmetrical,nearest_neighbour,ok,935,18895,1004,1004 B,0-3-1-12-14-2-10-8-4-6-7-11-5-9-13
-15,incomplete asymmetrical,dijkstra,ok,935,462528,3928,3.8 KB,0-3-1-12-14-2-10-8-4-6-7-11-5-9-13-0
-15,incomplete asymmetrical,inadmissible_astar,ok,886,129004854,4670152,4.5 MB,0-1-14-2-3-5-9-13-12-10-8-4-6-7-11
+15,incomplete asymmetrical,nearest_neighbour,ok,935,17603,588,588 B,0-3-1-12-14-2-10-8-4-6-7-11-5-9-13
+15,incomplete asymmetrical,dijkstra,ok,935,495271,3864,3.8 KB,0-3-1-12-14-2-10-8-4-6-7-11-5-9-13-0
+15,incomplete asymmetrical,inadmissible_astar,ok,886,117351554,4675908,4.5 MB,0-1-14-2-3-5-9-13-12-10-8-4-6-7-11
 15,incomplete asymmetrical,admissible_astar,skipped,,,,,
-15,incomplete asymmetrical,ant_colony,ok,860,57962312,17464,17.1 KB,0-11-7-6-4-8-10-12-14-2-3-5-9-13-1
+15,incomplete asymmetrical,ant_colony,ok,860,55880651,21226,20.7 KB,0-11-7-6-4-8-10-12-14-2-3-5-9-13-1
 16,complete symmetrical,dfs,skipped,,,,,
 16,complete symmetrical,bfs,skipped,,,,,
-16,complete symmetrical,nearest_neighbour,ok,766,20348,1012,1012 B,0-15-12-13-6-11-1-14-4-8-3-10-7-9-5-2
-16,complete symmetrical,dijkstra,ok,766,580990,3880,3.8 KB,0-15-12-13-6-11-1-14-4-8-3-10-7-9-5-2-0
-16,complete symmetrical,inadmissible_astar,ok,733,954973,34168,33.4 KB,0-6-13-4-14-1-11-3-8-10-7-2-5-9-15-12
+16,complete symmetrical,nearest_neighbour,ok,766,18595,596,596 B,0-15-12-13-6-11-1-14-4-8-3-10-7-9-5-2
+16,complete symmetrical,dijkstra,ok,766,530688,3816,3.7 KB,0-15-12-13-6-11-1-14-4-8-3-10-7-9-5-2-0
+16,complete symmetrical,inadmissible_astar,ok,733,909008,34104,33.3 KB,0-6-13-4-14-1-11-3-8-10-7-2-5-9-15-12
 16,complete symmetrical,admissible_astar,skipped,,,,,
-16,complete symmetrical,ant_colony,ok,694,82793408,19064,18.6 KB,0-15-12-13-6-11-1-4-14-3-8-10-7-2-5-9
+16,complete symmetrical,ant_colony,ok,694,75691447,24041,23.5 KB,0-15-12-13-6-11-1-4-14-3-8-10-7-2-5-9
 16,complete asymmetrical,dfs,skipped,,,,,
 16,complete asymmetrical,bfs,skipped,,,,,
-16,complete asymmetrical,nearest_neighbour,ok,816,19366,1012,1012 B,0-6-8-12-14-10-7-3-13-15-1-9-4-2-5-11
-16,complete asymmetrical,dijkstra,ok,816,593274,4416,4.3 KB,0-6-8-12-14-10-7-3-13-15-1-9-4-2-5-11-0
-16,complete asymmetrical,inadmissible_astar,ok,802,977886,34356,33.6 KB,0-11-12-14-10-7-3-13-15-1-9-4-2-5-8-6
+16,complete asymmetrical,nearest_neighbour,ok,816,18355,596,596 B,0-6-8-12-14-10-7-3-13-15-1-9-4-2-5-11
+16,complete asymmetrical,dijkstra,ok,816,534876,4352,4.2 KB,0-6-8-12-14-10-7-3-13-15-1-9-4-2-5-11-0
+16,complete asymmetrical,inadmissible_astar,ok,802,901874,34292,33.5 KB,0-11-12-14-10-7-3-13-15-1-9-4-2-5-8-6
 16,complete asymmetrical,admissible_astar,skipped,,,,,
-16,complete asymmetrical,ant_colony,ok,810,81597303,19064,18.6 KB,0-6-8-5-2-4-9-1-15-13-3-7-10-14-12-11
+16,complete asymmetrical,ant_colony,ok,810,75307378,24724,24.1 KB,0-6-8-5-2-4-9-1-15-13-3-7-10-14-12-11
 16,incomplete symmetrical,dfs,skipped,,,,,
 16,incomplete symmetrical,bfs,skipped,,,,,
-16,incomplete symmetrical,nearest_neighbour,ok,793,20037,1012,1012 B,0-14-5-2-9-7-13-1-11-15-6-10-8-12-3-4
-16,incomplete symmetrical,dijkstra,ok,793,545413,4064,4.0 KB,0-14-5-2-9-7-13-1-11-15-6-10-8-12-3-4-0
-16,incomplete symmetrical,inadmissible_astar,ok,794,6654139,194912,190.3 KB,0-3-4-8-10-12-11-1-15-6-14-5-2-7-9-13
+16,incomplete symmetrical,nearest_neighbour,ok,793,18916,596,596 B,0-14-5-2-9-7-13-1-11-15-6-10-8-12-3-4
+16,incomplete symmetrical,dijkstra,ok,793,506151,4000,3.9 KB,0-14-5-2-9-7-13-1-11-15-6-10-8-12-3-4-0
+16,incomplete symmetrical,inadmissible_astar,ok,794,5989913,194848,190.3 KB,0-3-4-8-10-12-11-1-15-6-14-5-2-7-9-13
 16,incomplete symmetrical,admissible_astar,skipped,,,,,
-16,incomplete symmetrical,ant_colony,ok,673,70513238,18792,18.4 KB,0-14-5-2-12-3-4-8-10-6-15-1-11-7-9-13
+16,incomplete symmetrical,ant_colony,ok,673,66501964,23531,23.0 KB,0-14-5-2-12-3-4-8-10-6-15-1-11-7-9-13
 16,incomplete asymmetrical,dfs,skipped,,,,,
 16,incomplete asymmetrical,bfs,skipped,,,,,
-16,incomplete asymmetrical,nearest_neighbour,ok,1014,19797,1012,1012 B,0-13-4-9-7-15-12-11-5-8-6-2-10-14-3-1
-16,incomplete asymmetrical,dijkstra,ok,1151,547187,4352,4.2 KB,0-13-4-9-13-2-6-3-10-14-5-11-8-12-15-7-5-1-2-0
-16,incomplete asymmetrical,inadmissible_astar,ok,934,22105721,849504,829.6 KB,0-6-2-13-9-4-7-15-12-8-11-5-1-3-14-10
+16,incomplete asymmetrical,nearest_neighbour,ok,1014,19116,596,596 B,0-13-4-9-7-15-12-11-5-8-6-2-10-14-3-1
+16,incomplete asymmetrical,dijkstra,ok,1151,508536,4288,4.2 KB,0-13-4-9-13-2-6-3-10-14-5-11-8-12-15-7-5-1-2-0
+16,incomplete asymmetrical,inadmissible_astar,ok,934,20534482,850328,830.4 KB,0-6-2-13-9-4-7-15-12-8-11-5-1-3-14-10
 16,incomplete asymmetrical,admissible_astar,skipped,,,,,
-16,incomplete asymmetrical,ant_colony,ok,899,71599939,18952,18.5 KB,0-13-4-9-7-15-12-8-11-5-1-3-14-10-6-2
+16,incomplete asymmetrical,ant_colony,ok,899,67730348,19316,18.9 KB,0-13-4-9-7-15-12-8-11-5-1-3-14-10-6-2
 17,complete symmetrical,dfs,skipped,,,,,
 17,complete symmetrical,bfs,skipped,,,,,
-17,complete symmetrical,nearest_neighbour,ok,812,21540,1084,1.1 KB,0-9-14-3-16-5-2-1-11-10-7-8-4-15-12-13-6
-17,complete symmetrical,dijkstra,ok,812,675207,4104,4.0 KB,0-9-14-3-16-5-2-1-11-10-7-8-4-15-12-13-6-0
-17,complete symmetrical,inadmissible_astar,ok,745,1206364,39160,38.2 KB,0-11-10-7-8-15-4-12-13-6-1-2-5-16-3-14-9
+17,complete symmetrical,nearest_neighbour,ok,812,28474,668,668 B,0-9-14-3-16-5-2-1-11-10-7-8-4-15-12-13-6
+17,complete symmetrical,dijkstra,ok,812,889630,4040,3.9 KB,0-9-14-3-16-5-2-1-11-10-7-8-4-15-12-13-6-0
+17,complete symmetrical,inadmissible_astar,ok,745,1400581,39096,38.2 KB,0-11-10-7-8-15-4-12-13-6-1-2-5-16-3-14-9
 17,complete symmetrical,admissible_astar,skipped,,,,,
-17,complete symmetrical,ant_colony,ok,721,98186580,21784,21.3 KB,0-9-3-14-16-5-2-1-6-13-12-4-15-8-7-10-11
+17,complete symmetrical,ant_colony,ok,721,88573327,25726,25.1 KB,0-9-3-14-16-5-2-1-6-13-12-4-15-8-7-10-11
 17,complete asymmetrical,dfs,skipped,,,,,
 17,complete asymmetrical,bfs,skipped,,,,,
-17,complete asymmetrical,nearest_neighbour,ok,747,21471,1084,1.1 KB,0-10-7-14-15-5-4-2-16-6-11-13-1-9-3-8-12
-17,complete asymmetrical,dijkstra,ok,747,829226,4664,4.6 KB,0-10-7-14-15-5-4-2-16-6-11-13-1-9-3-8-12-0
-17,complete asymmetrical,inadmissible_astar,ok,751,1389748,39160,38.2 KB,0-10-7-14-15-5-4-2-16-11-6-13-1-9-8-3-12
+17,complete asymmetrical,nearest_neighbour,ok,747,19838,668,668 B,0-10-7-14-15-5-4-2-16-6-11-13-1-9-3-8-12
+17,complete asymmetrical,dijkstra,ok,747,634236,4600,4.5 KB,0-10-7-14-15-5-4-2-16-6-11-13-1-9-3-8-12-0
+17,complete asymmetrical,inadmissible_astar,ok,751,1404859,39096,38.2 KB,0-10-7-14-15-5-4-2-16-11-6-13-1-9-8-3-12
 17,complete asymmetrical,admissible_astar,skipped,,,,,
-17,complete asymmetrical,ant_colony,ok,721,94921852,21448,20.9 KB,0-10-7-12-3-8-1-13-9-6-11-16-2-4-5-15-14
+17,complete asymmetrical,ant_colony,ok,721,87979989,25540,24.9 KB,0-10-7-12-3-8-1-13-9-6-11-16-2-4-5-15-14
 17,incomplete symmetrical,dfs,skipped,,,,,
 17,incomplete symmetrical,bfs,skipped,,,,,
-17,incomplete symmetrical,nearest_neighbour,no_tour,,22462,988,988 B,
-17,incomplete symmetrical,dijkstra,ok,878,652414,4312,4.2 KB,0-1-10-2-3-6-13-11-13-7-16-5-4-12-5-9-8-15-0-14-0
-17,incomplete symmetrical,inadmissible_astar,ok,975,76375422,3014352,2.9 MB,0-1-10-2-3-11-13-6-7-16-15-8-9-5-12-4-14
+17,incomplete symmetrical,nearest_neighbour,no_tour,,19817,572,572 B,
+17,incomplete symmetrical,dijkstra,ok,878,586815,4248,4.1 KB,0-1-10-2-3-6-13-11-13-7-16-5-4-12-5-9-8-15-0-14-0
+17,incomplete symmetrical,inadmissible_astar,ok,975,67711934,3018652,2.9 MB,0-1-10-2-3-11-13-6-7-16-15-8-9-5-12-4-14
 17,incomplete symmetrical,admissible_astar,skipped,,,,,
-17,incomplete symmetrical,ant_colony,ok,990,83461953,21344,20.8 KB,0-1-10-2-3-11-13-6-7-16-15-8-9-4-5-12-14
+17,incomplete symmetrical,ant_colony,ok,990,77909081,22948,22.4 KB,0-1-10-2-3-11-13-6-7-16-15-8-9-4-5-12-14
 17,incomplete asymmetrical,dfs,skipped,,,,,
 17,incomplete asymmetrical,bfs,skipped,,,,,
-17,incomplete asymmetrical,nearest_neighbour,ok,1000,22503,1084,1.1 KB,0-3-12-13-2-15-4-11-14-10-8-6-9-16-5-1-7
-17,incomplete asymmetrical,dijkstra,ok,986,650401,4528,4.4 KB,0-3-12-13-2-15-4-11-14-10-8-6-9-16-5-1-16-7-0
-17,incomplete asymmetrical,inadmissible_astar,ok,993,986091,31380,30.6 KB,0-1-16-6-9-5-7-13-15-2-8-10-14-11-12-3-4
+17,incomplete asymmetrical,nearest_neighbour,ok,1000,21601,668,668 B,0-3-12-13-2-15-4-11-14-10-8-6-9-16-5-1-7
+17,incomplete asymmetrical,dijkstra,ok,986,617162,4464,4.4 KB,0-3-12-13-2-15-4-11-14-10-8-6-9-16-5-1-16-7-0
+17,incomplete asymmetrical,inadmissible_astar,ok,993,1002144,31316,30.6 KB,0-1-16-6-9-5-7-13-15-2-8-10-14-11-12-3-4
 17,incomplete asymmetrical,admissible_astar,skipped,,,,,
-17,incomplete asymmetrical,ant_colony,ok,921,84796538,21344,20.8 KB,0-3-12-13-2-15-4-11-10-14-8-6-9-16-1-5-7
+17,incomplete asymmetrical,ant_colony,ok,921,78382391,25181,24.6 KB,0-3-12-13-2-15-4-11-10-14-8-6-9-16-1-5-7
 18,complete symmetrical,dfs,skipped,,,,,
 18,complete symmetrical,bfs,skipped,,,,,
-18,complete symmetrical,nearest_neighbour,ok,732,24456,1092,1.1 KB,0-10-15-6-2-8-17-14-9-13-11-4-7-1-12-5-16-3
-18,complete symmetrical,dijkstra,ok,732,797317,4328,4.2 KB,0-10-15-6-2-8-17-14-9-13-11-4-7-1-12-5-16-3-0
-18,complete symmetrical,inadmissible_astar,ok,727,1539209,44304,43.3 KB,0-15-6-2-8-17-9-13-14-11-4-7-1-12-5-16-3-10
+18,complete symmetrical,nearest_neighbour,ok,732,22763,676,676 B,0-10-15-6-2-8-17-14-9-13-11-4-7-1-12-5-16-3
+18,complete symmetrical,dijkstra,ok,732,787226,4264,4.2 KB,0-10-15-6-2-8-17-14-9-13-11-4-7-1-12-5-16-3-0
+18,complete symmetrical,inadmissible_astar,ok,727,1679352,44240,43.2 KB,0-15-6-2-8-17-9-13-14-11-4-7-1-12-5-16-3-10
 18,complete symmetrical,admissible_astar,skipped,,,,,
-18,complete symmetrical,ant_colony,ok,716,118196407,23488,22.9 KB,0-10-15-6-8-2-17-9-13-14-11-1-12-5-16-7-4-3
+18,complete symmetrical,ant_colony,ok,716,107174605,28731,28.1 KB,0-10-15-6-8-2-17-9-13-14-11-1-12-5-16-7-4-3
 18,complete asymmetrical,dfs,skipped,,,,,
 18,complete asymmetrical,bfs,skipped,,,,,
-18,complete asymmetrical,nearest_neighbour,ok,986,26991,1092,1.1 KB,0-9-6-12-13-4-2-11-8-14-5-15-1-3-17-10-16-7
-18,complete asymmetrical,dijkstra,ok,986,973136,5176,5.1 KB,0-9-6-12-13-4-2-11-8-14-5-15-1-3-17-10-16-7-0
-18,complete asymmetrical,inadmissible_astar,ok,973,1729586,44304,43.3 KB,0-15-12-9-6-13-4-2-11-14-8-5-3-1-17-10-7-16
+18,complete asymmetrical,nearest_neighbour,ok,986,22593,676,676 B,0-9-6-12-13-4-2-11-8-14-5-15-1-3-17-10-16-7
+18,complete asymmetrical,dijkstra,ok,986,765455,5112,5.0 KB,0-9-6-12-13-4-2-11-8-14-5-15-1-3-17-10-16-7-0
+18,complete asymmetrical,inadmissible_astar,ok,973,1435869,44240,43.2 KB,0-15-12-9-6-13-4-2-11-14-8-5-3-1-17-10-7-16
 18,complete asymmetrical,admissible_astar,skipped,,,,,
-18,complete asymmetrical,ant_colony,ok,960,136034913,23376,22.8 KB,0-9-6-12-13-4-2-11-8-14-5-3-1-15-16-7-10-17
+18,complete asymmetrical,ant_colony,ok,960,106728036,28844,28.2 KB,0-9-6-12-13-4-2-11-8-14-5-3-1-15-16-7-10-17
 18,incomplete symmetrical,dfs,skipped,,,,,
 18,incomplete symmetrical,bfs,skipped,,,,,
-18,incomplete symmetrical,nearest_neighbour,no_tour,,27512,1060,1.0 KB,
-18,incomplete symmetrical,dijkstra,ok,722,874291,4536,4.4 KB,0-5-16-1-11-6-2-13-14-9-8-7-10-15-12-3-4-3-17-0
-18,incomplete symmetrical,inadmissible_astar,ok,685,91065136,1956456,1.9 MB,0-16-5-12-17-3-4-15-10-7-8-9-14-13-2-6-1-11
+18,incomplete symmetrical,nearest_neighbour,no_tour,,23064,644,644 B,
+18,incomplete symmetrical,dijkstra,ok,722,726681,4472,4.4 KB,0-5-16-1-11-6-2-13-14-9-8-7-10-15-12-3-4-3-17-0
+18,incomplete symmetrical,inadmissible_astar,ok,685,73395444,1959852,1.9 MB,0-16-5-12-17-3-4-15-10-7-8-9-14-13-2-6-1-11
 18,incomplete symmetrical,admissible_astar,skipped,,,,,
-18,incomplete symmetrical,ant_colony,ok,691,112872998,23072,22.5 KB,0-5-16-1-11-6-2-13-14-9-8-7-10-15-4-3-17-12
+18,incomplete symmetrical,ant_colony,ok,691,91384789,26836,26.2 KB,0-5-16-1-11-6-2-13-14-9-8-7-10-15-4-3-17-12
 18,incomplete asymmetrical,dfs,skipped,,,,,
 18,incomplete asymmetrical,bfs,skipped,,,,,
-18,incomplete asymmetrical,nearest_neighbour,ok,907,41347,1092,1.1 KB,0-15-4-8-7-14-10-17-12-13-1-6-2-16-11-9-3-5
-18,incomplete asymmetrical,dijkstra,ok,886,940105,4736,4.6 KB,0-15-4-8-7-14-10-17-12-0-1-6-2-16-11-13-9-13-3-5-0
-18,incomplete asymmetrical,inadmissible_astar,ok,1004,14873397,442008,431.6 KB,0-5-7-14-8-4-17-12-15-11-2-1-3-6-16-9-13-10
+18,incomplete asymmetrical,nearest_neighbour,ok,907,23484,676,676 B,0-15-4-8-7-14-10-17-12-13-1-6-2-16-11-9-3-5
+18,incomplete asymmetrical,dijkstra,ok,886,732312,4672,4.6 KB,0-15-4-8-7-14-10-17-12-0-1-6-2-16-11-13-9-13-3-5-0
+18,incomplete asymmetrical,inadmissible_astar,ok,1004,10535861,442496,432.1 KB,0-5-7-14-8-4-17-12-15-11-2-1-3-6-16-9-13-10
 18,incomplete asymmetrical,admissible_astar,skipped,,,,,
-18,incomplete asymmetrical,ant_colony,ok,781,119716834,23032,22.5 KB,0-17-12-14-10-7-8-4-11-9-13-1-6-2-16-3-5-15
+18,incomplete asymmetrical,ant_colony,ok,781,93083298,22874,22.3 KB,0-17-12-14-10-7-8-4-11-9-13-1-6-2-16-3-5-15
 19,complete symmetrical,dfs,skipped,,,,,
 19,complete symmetrical,bfs,skipped,,,,,
-19,complete symmetrical,nearest_neighbour,ok,932,28905,1100,1.1 KB,0-1-10-15-3-18-4-7-14-16-8-13-17-9-2-6-11-12-5
-19,complete symmetrical,dijkstra,ok,932,1032468,4488,4.4 KB,0-1-10-15-3-18-4-7-14-16-8-13-17-9-2-6-11-12-5-0
-19,complete symmetrical,inadmissible_astar,ok,849,2080876,49860,48.7 KB,0-12-5-11-2-6-9-8-16-14-7-4-18-13-17-15-3-10-1
+19,complete symmetrical,nearest_neighbour,ok,932,24086,684,684 B,0-1-10-15-3-18-4-7-14-16-8-13-17-9-2-6-11-12-5
+19,complete symmetrical,dijkstra,ok,932,830198,4424,4.3 KB,0-1-10-15-3-18-4-7-14-16-8-13-17-9-2-6-11-12-5-0
+19,complete symmetrical,inadmissible_astar,ok,849,1706423,49796,48.6 KB,0-12-5-11-2-6-9-8-16-14-7-4-18-13-17-15-3-10-1
 19,complete symmetrical,admissible_astar,skipped,,,,,
-19,complete symmetrical,ant_colony,ok,865,152192459,25008,24.4 KB,0-1-12-11-5-2-6-9-18-4-7-14-16-8-13-17-15-3-10
+19,complete symmetrical,ant_colony,ok,865,119521798,30003,29.3 KB,0-1-12-11-5-2-6-9-18-4-7-14-16-8-13-17-15-3-10
 19,complete asymmetrical,dfs,skipped,,,,,
 19,complete asymmetrical,bfs,skipped,,,,,
-19,complete asymmetrical,nearest_neighbour,ok,946,29014,1100,1.1 KB,0-5-14-7-18-9-12-6-15-4-8-13-1-16-17-11-10-2-3
-19,complete asymmetrical,dijkstra,ok,937,1071140,5296,5.2 KB,0-5-14-7-18-9-12-6-15-4-8-13-14-1-16-17-11-10-2-3-0
-19,complete asymmetrical,inadmissible_astar,ok,804,2089311,49864,48.7 KB,0-18-7-14-5-1-16-17-11-10-2-3-9-12-6-15-4-8-13
+19,complete asymmetrical,nearest_neighbour,ok,946,37361,684,684 B,0-5-14-7-18-9-12-6-15-4-8-13-1-16-17-11-10-2-3
+19,complete asymmetrical,dijkstra,ok,937,891885,5232,5.1 KB,0-5-14-7-18-9-12-6-15-4-8-13-14-1-16-17-11-10-2-3-0
+19,complete asymmetrical,inadmissible_astar,ok,804,1731691,49800,48.6 KB,0-18-7-14-5-1-16-17-11-10-2-3-9-12-6-15-4-8-13
 19,complete asymmetrical,admissible_astar,skipped,,,,,
-19,complete asymmetrical,ant_colony,ok,787,157524107,25344,24.8 KB,0-5-18-7-14-1-16-17-11-10-2-3-9-12-6-15-4-8-13
+19,complete asymmetrical,ant_colony,ok,787,124007242,29289,28.6 KB,0-5-18-7-14-1-16-17-11-10-2-3-9-12-6-15-4-8-13
 19,incomplete symmetrical,dfs,skipped,,,,,
 19,incomplete symmetrical,bfs,skipped,,,,,
-19,incomplete symmetrical,nearest_neighbour,no_tour,,30146,1068,1.0 KB,
-19,incomplete symmetrical,dijkstra,ok,808,1005157,4832,4.7 KB,0-14-17-11-4-1-6-18-15-8-12-10-13-7-9-2-16-3-0-5-0
-19,incomplete symmetrical,inadmissible_astar,ok,927,2610391784,60238552,57.4 MB,0-14-17-11-4-1-6-18-15-8-12-10-13-7-3-9-16-2-5
+19,incomplete symmetrical,nearest_neighbour,no_tour,,25198,652,652 B,
+19,incomplete symmetrical,dijkstra,ok,808,806302,4768,4.7 KB,0-14-17-11-4-1-6-18-15-8-12-10-13-7-9-2-16-3-0-5-0
+19,incomplete symmetrical,inadmissible_astar,ok,927,2074672312,60249004,57.5 MB,0-14-17-11-4-1-6-18-15-8-12-10-13-7-3-9-16-2-5
 19,incomplete symmetrical,admissible_astar,skipped,,,,,
-19,incomplete symmetrical,ant_colony,ok,834,132952496,24600,24.0 KB,0-14-17-11-3-2-16-9-7-13-10-12-8-15-18-6-1-4-5
+19,incomplete symmetrical,ant_colony,ok,834,107023017,26964,26.3 KB,0-14-17-11-3-2-16-9-7-13-10-12-8-15-18-6-1-4-5
 19,incomplete asymmetrical,dfs,skipped,,,,,
 19,incomplete asymmetrical,bfs,skipped,,,,,
-19,incomplete asymmetrical,nearest_neighbour,no_tour,,26159,1068,1.0 KB,
-19,incomplete asymmetrical,dijkstra,ok,883,904788,5224,5.1 KB,0-10-3-16-9-18-12-1-6-11-5-13-4-8-15-14-7-2-15-17-0
-19,incomplete asymmetrical,inadmissible_astar,ok,845,355632679,8590728,8.2 MB,0-10-3-16-9-18-12-1-6-11-5-8-13-4-2-14-7-15-17
+19,incomplete asymmetrical,nearest_neighbour,no_tour,,24818,652,652 B,
+19,incomplete asymmetrical,dijkstra,ok,883,836219,5160,5.0 KB,0-10-3-16-9-18-12-1-6-11-5-13-4-8-15-14-7-2-15-17-0
+19,incomplete asymmetrical,inadmissible_astar,ok,845,305900907,8595248,8.2 MB,0-10-3-16-9-18-12-1-6-11-5-8-13-4-2-14-7-15-17
 19,incomplete asymmetrical,admissible_astar,skipped,,,,,
-19,incomplete asymmetrical,ant_colony,ok,847,120769510,24568,24.0 KB,0-10-3-16-9-18-12-1-6-11-5-13-4-8-2-14-7-15-17
+19,incomplete asymmetrical,ant_colony,ok,847,106769646,26578,26.0 KB,0-10-3-16-9-18-12-1-6-11-5-13-4-8-2-14-7-15-17
 20,complete symmetrical,dfs,skipped,,,,,
 20,complete symmetrical,bfs,skipped,,,,,
-20,complete symmetrical,nearest_neighbour,ok,891,28995,1108,1.1 KB,0-16-17-2-3-9-5-19-8-15-11-10-1-14-12-7-4-18-6-13
-20,complete symmetrical,dijkstra,ok,891,1418002,4648,4.5 KB,0-16-17-2-3-9-5-19-8-15-11-10-1-14-12-7-4-18-6-13-0
-20,complete symmetrical,inadmissible_astar,ok,905,2267826,55592,54.3 KB,0-13-2-3-9-5-19-8-15-11-1-10-14-18-4-7-12-6-17-16
+20,complete symmetrical,nearest_neighbour,ok,891,26401,692,692 B,0-16-17-2-3-9-5-19-8-15-11-10-1-14-12-7-4-18-6-13
+20,complete symmetrical,dijkstra,ok,891,1437321,4584,4.5 KB,0-16-17-2-3-9-5-19-8-15-11-10-1-14-12-7-4-18-6-13-0
+20,complete symmetrical,inadmissible_astar,ok,905,2059152,55528,54.2 KB,0-13-2-3-9-5-19-8-15-11-1-10-14-18-4-7-12-6-17-16
 20,complete symmetrical,admissible_astar,skipped,,,,,
-20,complete symmetrical,ant_colony,ok,830,163864117,26680,26.1 KB,0-16-17-13-6-12-7-18-4-14-10-1-11-15-8-19-5-9-3-2
+20,complete symmetrical,ant_colony,ok,830,141259708,29528,28.8 KB,0-16-17-13-6-12-7-18-4-14-10-1-11-15-8-19-5-9-3-2
 20,complete asymmetrical,dfs,skipped,,,,,
 20,complete asymmetrical,bfs,skipped,,,,,
-20,complete asymmetrical,nearest_neighbour,ok,861,28794,1108,1.1 KB,0-5-12-3-11-15-1-2-7-9-19-13-14-6-16-4-10-18-8-17
-20,complete asymmetrical,dijkstra,ok,861,1112618,5672,5.5 KB,0-5-12-3-11-15-1-2-7-9-19-13-14-6-16-4-10-18-8-17-0
-20,complete asymmetrical,inadmissible_astar,ok,825,2270402,55592,54.3 KB,0-17-3-12-5-13-14-6-16-4-10-18-8-19-9-7-2-1-15-11
+20,complete asymmetrical,nearest_neighbour,ok,861,26571,692,692 B,0-5-12-3-11-15-1-2-7-9-19-13-14-6-16-4-10-18-8-17
+20,complete asymmetrical,dijkstra,ok,861,1010640,5608,5.5 KB,0-5-12-3-11-15-1-2-7-9-19-13-14-6-16-4-10-18-8-17-0
+20,complete asymmetrical,inadmissible_astar,ok,825,2072498,55528,54.2 KB,0-17-3-12-5-13-14-6-16-4-10-18-8-19-9-7-2-1-15-11
 20,complete asymmetrical,admissible_astar,skipped,,,,,
-20,complete asymmetrical,ant_colony,ok,767,159979866,26904,26.3 KB,0-5-12-13-14-6-16-4-10-18-8-19-9-7-2-1-15-11-17-3
+20,complete asymmetrical,ant_colony,ok,767,141809632,29510,28.8 KB,0-5-12-13-14-6-16-4-10-18-8-19-9-7-2-1-15-11-17-3
 20,incomplete symmetrical,dfs,skipped,,,,,
 20,incomplete symmetrical,bfs,skipped,,,,,
-20,incomplete symmetrical,nearest_neighbour,no_tour,,32170,1076,1.1 KB,
-20,incomplete symmetrical,dijkstra,ok,1228,1168563,5120,5.0 KB,0-2-15-1-7-17-16-10-14-8-12-19-9-13-4-6-18-3-5-0-11-0
-20,incomplete symmetrical,inadmissible_astar,ok,1076,5176690025,103656472,98.9 MB,0-14-1-15-2-17-7-10-16-3-18-6-4-11-13-9-19-12-8-5
+20,incomplete symmetrical,nearest_neighbour,no_tour,,27552,660,660 B,
+20,incomplete symmetrical,dijkstra,ok,1228,930378,5056,4.9 KB,0-2-15-1-7-17-16-10-14-8-12-19-9-13-4-6-18-3-5-0-11-0
+20,incomplete symmetrical,inadmissible_astar,ok,1076,4067387710,103662988,98.9 MB,0-14-1-15-2-17-7-10-16-3-18-6-4-11-13-9-19-12-8-5
 20,incomplete symmetrical,admissible_astar,skipped,,,,,
-20,incomplete symmetrical,ant_colony,ok,1068,140761093,26336,25.7 KB,0-2-15-1-7-10-16-17-6-18-3-4-14-11-12-19-13-9-8-5
+20,incomplete symmetrical,ant_colony,ok,1068,122301541,28164,27.5 KB,0-2-15-1-7-10-16-17-6-18-3-4-14-11-12-19-13-9-8-5
 20,incomplete asymmetrical,dfs,skipped,,,,,
 20,incomplete asymmetrical,bfs,skipped,,,,,
-20,incomplete asymmetrical,nearest_neighbour,no_tour,,29074,1076,1.1 KB,
-20,incomplete asymmetrical,dijkstra,ok,1215,982154,5560,5.4 KB,0-15-16-5-6-11-19-4-7-1-17-13-10-7-12-8-9-18-2-5-3-14-6-0
-20,incomplete asymmetrical,inadmissible_astar,ok,1101,1900595012,44195064,42.1 MB,0-3-14-1-17-10-13-11-6-16-9-18-2-5-8-19-4-7-12-15
+20,incomplete asymmetrical,nearest_neighbour,no_tour,,28194,660,660 B,
+20,incomplete asymmetrical,dijkstra,ok,1215,961507,5496,5.4 KB,0-15-16-5-6-11-19-4-7-1-17-13-10-7-12-8-9-18-2-5-3-14-6-0
+20,incomplete asymmetrical,inadmissible_astar,ok,1101,1674911882,44204324,42.2 MB,0-3-14-1-17-10-13-11-6-16-9-18-2-5-8-19-4-7-12-15
 20,incomplete asymmetrical,admissible_astar,skipped,,,,,
-20,incomplete asymmetrical,ant_colony,ok,1070,154366861,26368,25.8 KB,0-15-16-12-7-4-19-1-17-10-13-14-3-5-2-11-6-8-9-18
+20,incomplete asymmetrical,ant_colony,ok,1070,125064190,27886,27.2 KB,0-15-16-12-7-4-19-1-17-10-13-14-3-5-2-11-6-8-9-18
